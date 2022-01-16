@@ -1,0 +1,81 @@
+[
+  {
+    "type": "textbox",
+    "width": "col-md-12",
+    "name": "smsSubject",
+    "label": "smsSubject",
+    "field": "smsSubject"
+  },
+  {
+    "type": "textarea",
+    "width": "col-md-12",
+    "name": "smsMessage",
+    "label": "smsMessage",
+    "field": "smsMessage"
+  },
+  {
+    "type": "textbox",
+    "width": "col-md-4",
+    "name": "smsDate",
+    "label": "smsDate",
+    "field": "smsDate"
+  },
+  {
+    "type": "textbox",
+    "width": "col-md-4",
+    "name": "smsTime",
+    "label": "smsTime",
+    "field": "smsTime"
+  },
+  {
+    "type": "textbox",
+    "width": "col-md-4",
+    "name": "smsClinic",
+    "label": "smsClinic",
+    "field": "smsClinic"
+  },
+  {
+    "type": "switch",
+    "width": "col-md-12",
+    "name": "signatureAvailable",
+    "label": "signatureAvailable",
+    "field": "signatureAvailable"
+  },
+  {
+    "type": "textbox",
+    "width": "col-md-6",
+    "name": "smsSignatureAddress",
+    "label": "smsSignatureAddress",
+    "field": "smsSignatureAddress"
+  },
+  {
+    "type": "textbox",
+    "width": "col-md-6",
+    "name": "smsSignatureTelephone",
+    "label": "smsSignatureTelephone",
+    "field": "smsSignatureTelephone"
+  },
+  {
+    "type": "textbox",
+    "width": "col-md-6",
+    "name": "smsSignatureMobile",
+    "label": "smsSignatureMobile",
+    "field": "smsSignatureMobile"
+  },
+  {
+    "type": "textbox",
+    "width": "col-md-6",
+    "name": "smsSignatureEmail",
+    "label": "smsSignatureEmail",
+    "field": "smsSignatureEmail"
+  },
+  {
+    "type": "button",
+    "width": "col-md-12",
+    "class": "e-control e-btn e-lib e-primary e-flat",
+    "name": "submit",
+    "label": "save",
+    "field": "submit",
+    "positionClass": "text-align: end"
+  }
+]

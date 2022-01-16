@@ -1,0 +1,181 @@
+{
+  "id": "g1",
+  "title": "TEST GRID2",
+  "pageSize": 10,
+  "request": {
+    "type": "GET",
+    "api": "/api/getReservations",
+    "parameters": ["superadmin"],
+    "fields": "",
+    "root": ""
+  },
+  "paging": {
+    "enable": true,
+    "settings": {
+      "pageSize": 10
+    }
+  },
+  "sorting": {
+    "enable": false
+  },
+  "grouping": {
+    "enable": true,
+    "group": [{ "field": "processConfigurationName" }]
+  },
+  "filtering": {
+    "enable": false
+  },
+  "customGrouping": false,
+  "allowResizing": true,
+  "reorderable": true,
+  "selectable": true,
+  "scrollable": false,
+  "hideable": true,
+  "refresh": false,
+  "reset": true,
+  "toolbar": ["Print", "Search"],
+  "customToolbar": {
+    "refresh": true,
+    "collapse": true
+  },
+  "editSettings": {
+    "allowEditing": true,
+    "allowAdding": true,
+    "allowDeleting": true,
+    "showDeleteConfirmDialog": true,
+    "mode": "Dialog"
+  },
+  "columns": [
+    {
+      "title": "",
+      "label": "reservationApprove",
+      "id": "approve",
+      "width": 150,
+      "class": "btn btn-success",
+      "position": "Center",
+      "classIcon": "fa fa-check",
+      "type": "button",
+      "mode": "action",
+      "request": {
+        "type": "POST",
+        "api": "/api/approveReservation",
+        "parameters": [],
+        "fields": "id",
+        "root": ""
+      },
+      "field": ""
+    },
+    {
+      "title": "",
+      "label": "reservationDeny",
+      "id": "deny",
+      "width": 150,
+      "class": "btn btn-danger",
+      "position": "Center",
+      "classIcon": "fa fa-times",
+      "type": "button",
+      "mode": "action",
+      "request": {
+        "type": "POST",
+        "api": "/api/denyReservation",
+        "parameters": [],
+        "fields": "id",
+        "root": ""
+      },
+      "field": ""
+    },
+    {
+      "title": "ID",
+      "width": 70,
+      "filterable": true,
+      "hideable": true,
+      "filter": "date",
+      "type": "number",
+      "class": "text-align-right",
+      "field": "id",
+      "isPrimaryKey": true,
+      "allowEditing": false
+    },
+    {
+      "title": "Firstname",
+      "width": 120,
+      "filterable": true,
+      "hideable": true,
+      "type": "string",
+      "class": "text-align-right",
+      "field": "firstname",
+      "validation": { "required": true }
+    },
+    {
+      "title": "Lastname",
+      "width": 120,
+      "filterable": true,
+      "hideable": true,
+      "type": "string",
+      "class": "text-align-right",
+      "field": "lastname",
+      "validation": { "required": true }
+    },
+    {
+      "title": "Email",
+      "width": 200,
+      "filterable": true,
+      "hideable": true,
+      "type": "string",
+      "class": "text-align-right",
+      "field": "email"
+    },
+    {
+      "title": "Mobile",
+      "width": 150,
+      "filterable": true,
+      "hideable": true,
+      "type": "string",
+      "class": "text-align-right",
+      "field": "mobile"
+    },
+    {
+      "title": "Birthday",
+      "width": 120,
+      "filterable": true,
+      "hideable": true,
+      "type": "date",
+      "class": "text-align-right",
+      "defaultValue": "no date",
+      "field": "birthday",
+      "format": { "type": "date", "format": "dd/MM/yyyy" }
+    },
+    {
+      "title": "From",
+      "width": 150,
+      "filterable": true,
+      "hideable": true,
+      "type": "date",
+      "class": "text-align-right",
+      "defaultValue": "no date",
+      "field": "start",
+      "format": { "type": "date", "format": "dd/MM/yyyy - hh:MM" }
+    },
+    {
+      "title": "To",
+      "width": 150,
+      "filterable": true,
+      "hideable": true,
+      "type": "date",
+      "class": "text-align-right",
+      "defaultValue": "no date",
+      "field": "end",
+      "format": { "type": "date", "format": "dd/MM/yyyy - hh:MM" }
+    },
+    {
+      "title": "Doctor",
+      "width": 200,
+      "filterable": true,
+      "hideable": true,
+      "type": "string",
+      "class": "text-align-right",
+      "field": "shortname"
+    }
+  ],
+  "configField": []
+}

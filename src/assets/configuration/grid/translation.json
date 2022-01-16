@@ -1,0 +1,39 @@
+{
+  "type": "translation",
+  "new": {
+    "open": "page",
+    "link": "/dashboard/home/translation/edit/create"
+  },
+  "columns": [
+    {
+      "type": "data",
+      "field": "language",
+      "title": "language"
+    },
+    {
+      "type": "boolean",
+      "action": "active",
+      "field": "active",
+      "title": "active"
+    },
+    {
+      "type": "button",
+      "action": "preview",
+      "class": "k-preview",
+      "icon": "k-icon k-i-preview",
+      "open": "page",
+      "link": "dashboard/home/translation/edit",
+      "param": "_id"
+    },
+    {
+      "type": "button",
+      "action": "delete",
+      "class": "k-preview",
+      "icon": "k-icon k-i-delete",
+      "method": "deleteTranslation",
+      "param": "_id"
+    }
+  ],
+  "exportPdfName": "Translation.pdf",
+  "exportExcelName": "Translation.xlsx"
+}

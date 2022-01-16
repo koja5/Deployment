@@ -1,0 +1,17 @@
+[
+  {
+    "menu": this.language.settingsAccount,
+    "category": this.language.settingsAccountNavigation,
+    "route": "/dashboard/home/settings/account"
+  },
+  {
+    "menu": this.language.settingsChangePassword,
+    "category": this.language.settingsAccountNavigation,
+    "route": "/dashboard/home/settings/change-password"
+  },
+  {
+    "menu": this.language.perimissionForPatientNavigationMenu,
+    "category": this.language.settingsPermissionNavigation,
+    "route": "/dashboard/home/settings/permission-patient-menu"
+  }
+]

@@ -1,0 +1,71 @@
+{
+    "id": "warn",
+    "title": "Warn",
+    "pageSize": 10,
+    "localData": {
+      "path": "./assets/warn.log"
+    },
+    "paging": {
+      "enable": true,
+      "settings": {
+        "pageSize": 10
+      }
+    },
+    "sorting": {
+      "enable": true,
+      "initialSorting": {
+        "columns": [
+          {
+            "field": "timestamp",
+            "direction": "Descending"
+          }
+        ]
+      }
+    },
+    "grouping": {
+      "enable": true,
+      "group": [{ "field": "processConfigurationName" }]
+    },
+    "filtering": {
+      "enable": false
+    },
+    "customGrouping": false,
+    "allowResizing": true,
+    "reorderable": true,
+    "selectable": true,
+    "scrollable": false,
+    "hideable": true,
+    "refresh": false,
+    "reset": true,
+    "toolbar": ["Print", "Search"],
+    "editSettings": {
+      "allowEditing": false,
+      "allowAdding": false,
+      "allowDeleting": false,
+      "showDeleteConfirmDialog": false,
+      "mode": "Dialog"
+    },
+    "columns": [
+      {
+        "title": "Message",
+        "filterable": true,
+        "hideable": true,
+        "type": "string",
+        "class": "text-align-right",
+        "field": "message"
+      },
+      {
+        "title": "Date",
+        "width": 250,
+        "filterable": true,
+        "hideable": true,
+        "type": "date",
+        "class": "text-align-right",
+        "defaultValue": "no date",
+        "field": "timestamp",
+        "format": { "type": "date", "format": "dd/MM/yyyy HH:mm" }
+      }
+    ],
+    "configField": []
+  }
+  

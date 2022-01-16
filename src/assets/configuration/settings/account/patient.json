@@ -1,0 +1,78 @@
+[
+  {
+    "type": "textbox",
+    "width": "col-md-6",
+    "name": "firstname",
+    "label": "firstname",
+    "field": "firstname",
+    "value": "Marko"
+  },
+  {
+    "type": "textbox",
+    "width": "col-md-6",
+    "name": "lastname",
+    "label": "lastname",
+    "field": "lastname"
+  },
+  {
+    "type": "textbox",
+    "width": "col-md-4",
+    "name": "street",
+    "label": "street",
+    "field": "street"
+  },
+  {
+    "type": "textbox",
+    "width": "col-md-4",
+    "name": "streetnumber",
+    "label": "streetnumber",
+    "field": "streetnumber"
+  },
+  {
+    "type": "textbox",
+    "width": "col-md-4",
+    "name": "city",
+    "label": "city",
+    "field": "city"
+  },
+  {
+    "type": "textbox",
+    "width": "col-md-6",
+    "name": "telephone",
+    "label": "telephone",
+    "field": "telephone"
+  },
+  {
+    "type": "textbox",
+    "width": "col-md-6",
+    "name": "mobile",
+    "label": "mobile",
+    "field": "mobile"
+  },
+  {
+    "type": "textbox",
+    "width": "col-md-6",
+    "name": "email",
+    "label": "email",
+    "field": "email",
+    "disabled": true
+  },
+  {
+    "type": "datepicker",
+    "width": "col-md-6",
+    "format": "dd.MM.yyyy",
+    "name": "birthday",
+    "label": "birthday",
+    "field": "birthday",
+    "placeholder": "Please enter date for initial task!"
+  },
+  {
+    "type": "button",
+    "width": "col-md-12",
+    "class": "e-control e-btn e-lib e-primary e-flat",
+    "name": "submit",
+    "label": "save",
+    "field": "submit",
+    "positionClass": "text-align: end"
+  }
+]

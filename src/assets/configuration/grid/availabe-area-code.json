@@ -1,0 +1,124 @@
+{
+    "pageSize": 10,
+    "request": {
+      "type": "GET",
+      "api": "/api/getAvailableAreaCode",
+      "parameters": [],
+      "fields": "",
+      "root": ""
+    },
+    "paging": {
+      "enable": true,
+      "settings": {
+        "pageSize": 10
+      }
+    },
+    "sorting": {
+      "enable": true,
+      "initalSorting": {
+        "columns": [
+          {
+            "field": "id",
+            "direction": "Descending"
+          }
+        ]
+      }
+    },
+    "grouping": {
+      "enable": true,
+      "group": []
+    },
+    "filtering": {
+      "enable": false
+    },
+    "customGrouping": false,
+    "allowResizing": true,
+    "reorderable": true,
+    "selectable": true,
+    "scrollable": false,
+    "hideable": true,
+    "refresh": false,
+    "reset": true,
+    "toolbar": ["Add", "Edit", "Delete", "Print", "Search"],
+    "editSettings": {
+      "allowEditing": true,
+      "allowAdding": true,
+      "allowDeleting": true,
+      "showDeleteConfirmDialog": true,
+      "mode": "Dialog"
+    },
+    "editSettingsRequest": {
+      "add": {
+        "type": "POST",
+        "api": "/api/createAvailableAreaCode",
+        "parameters": [],
+        "fields": "",
+        "root": ""
+      },
+      "edit": {
+        "type": "POST",
+        "api": "/api/updateAvailableAreaCode",
+        "parameters": [],
+        "fields": "",
+        "root": ""
+      },
+      "delete": {
+        "type": "GET",
+        "api": "/api/deleteAvailableAreaCode",
+        "parameters": [],
+        "fields": "",
+        "root": ""
+      }
+  
+    },
+    "columns": [
+      {
+        "title": "ID",
+        "width": 100,
+        "filterable": true,
+        "filter": "text",
+        "type": "number",
+        "class": "text-align-right",
+        "field": "id",
+        "isPrimaryKey": true,
+        "allowEditing": false
+      },
+      {
+        "title": "Area code",
+        "width": 150,
+        "filterable": true,
+        "filter": "text",
+        "type": "textbox",
+        "class": "text-align-right",
+        "field": "area_code",
+        "allowEditing": true
+      }
+    ],
+    "configField": [
+      {
+        "type": "textbox",
+        "width": "col-md-12",
+        "name": "id",
+        "label": "ID",
+        "field": "id",
+        "readonly": true
+      },
+      {
+        "type": "textbox",
+        "width": "col-md-12",
+        "name": "area_code",
+        "label": "areaCode",
+        "field": "area_code"
+      },
+      {
+        "type": "button",
+        "width": "col-md-12",
+        "class": "e-control e-btn e-lib e-primary e-flat",
+        "name": "submit",
+        "label": "Save",
+        "field": "submit",
+        "positionClass": "text-align: end"
+      }
+    ]
+  }
+  

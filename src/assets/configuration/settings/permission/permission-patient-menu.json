@@ -1,0 +1,39 @@
+[
+  {
+    "type": "checkbox",
+    "width": "col-md-12",
+    "name": "myCalendar",
+    "label": "myCalendar",
+    "field": "myCalendar"
+  },
+  {
+    "type": "checkbox",
+    "width": "col-md-12",
+    "name": "myComplaint",
+    "label": "myComplaint",
+    "field": "myComplaint"
+  },
+  {
+    "type": "checkbox",
+    "width": "col-md-12",
+    "name": "myTherapy",
+    "label": "myTherapy",
+    "field": "myTherapy"
+  },
+  {
+    "type": "checkbox",
+    "width": "col-md-12",
+    "name": "myDocument",
+    "label": "myDocument",
+    "field": "myDocument"
+  },
+  {
+    "type": "button",
+    "width": "col-md-12",
+    "class": "e-control e-btn e-lib e-primary e-flat",
+    "name": "submit",
+    "label": "changePermissionPatientMenuButton",
+    "field": "submit",
+    "positionClass": "text-align: end"
+  }
+]

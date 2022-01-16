@@ -1,0 +1,12 @@
+[
+    {
+        "name": "english",
+        "icon": "us_flag.jpg",
+        "default": true
+    },
+    {
+        "name": "germany",
+        "icon": "germany_flag.jpg",
+        "default": false
+    }
+]

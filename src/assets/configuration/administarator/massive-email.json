@@ -1,0 +1,62 @@
+[
+  {
+    "type": "textbox",
+    "width": "col-md-12",
+    "name": "place",
+    "label": "place",
+    "field": "place"
+  },
+  {
+    "type": "checkbox",
+    "width": "col-md-12",
+    "name": "male",
+    "label": "male",
+    "field": "male"
+  },
+  {
+    "type": "checkbox",
+    "width": "col-md-12",
+    "name": "female",
+    "label": "female",
+    "field": "female"
+  },
+  {
+    "type": "datepicker",
+    "width": "col-md-6",
+    "format": "dd.MM.yyyy",
+    "name": "birthdayFrom",
+    "label": "birthdayFrom",
+    "field": "birthdayFrom"
+  },
+  {
+    "type": "datepicker",
+    "width": "col-md-6",
+    "format": "dd.MM.yyyy",
+    "name": "birthdayTo",
+    "label": "birthdayTo",
+    "field": "birthdayTo"
+  },
+  {
+    "type": "textbox",
+    "width": "col-md-12",
+    "name": "subject",
+    "label": "subject",
+    "field": "subject"
+  },
+  {
+    "type": "textarea",
+    "width": "col-md-12",
+    "name": "message",
+    "label": "message",
+    "field": "message"
+  },
+  {
+    "type": "button",
+    "width": "col-md-12",
+    "class": "e-control e-btn e-lib e-primary e-flat",
+    "name": "submit",
+    "label": "sendMassiveEmail",
+    "field": "submit",
+    "positionClass": "text-align: end"
+  }
+]

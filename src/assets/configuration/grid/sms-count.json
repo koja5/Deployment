@@ -1,0 +1,132 @@
+{
+  "pageSize": 10,
+  "request": {
+    "type": "GET",
+    "api": "/api/getSMSCount",
+    "parameters": [],
+    "fields": "",
+    "root": ""
+  },
+  "paging": {
+    "enable": true,
+    "settings": {
+      "pageSize": 10
+    }
+  },
+  "sorting": {
+    "enable": true,
+    "initalSorting": {
+      "columns": [
+        {
+          "field": "id",
+          "direction": "Descending"
+        }
+      ]
+    }
+  },
+  "grouping": {
+    "enable": true,
+    "group": []
+  },
+  "filtering": {
+    "enable": false
+  },
+  "customGrouping": false,
+  "allowResizing": true,
+  "reorderable": true,
+  "selectable": true,
+  "scrollable": false,
+  "hideable": true,
+  "refresh": false,
+  "reset": true,
+  "toolbar": ["Edit", "Print", "Search"],
+  "editSettings": {
+    "allowEditing": true,
+    "allowAdding": true,
+    "allowDeleting": true,
+    "showDeleteConfirmDialog": true,
+    "mode": "Dialog"
+  },
+  "editSettingsRequest": {
+    "add": {
+      "type": "POST",
+      "api": "/api/createSmsCount",
+      "parameters": [],
+      "fields": "",
+      "root": ""
+    },
+    "edit": {
+      "type": "POST",
+      "api": "/api/updateSmsCount",
+      "parameters": [],
+      "fields": "",
+      "root": ""
+    },
+    "delete": {
+      "type": "GET",
+      "api": "/api/deleteSmsCount",
+      "parameters": [],
+      "fields": "",
+      "root": ""
+    }
+  },
+  "columns": [
+    {
+      "title": "ID",
+      "width": 100,
+      "filterable": true,
+      "filter": "text",
+      "type": "number",
+      "class": "text-align-right",
+      "field": "superadmin",
+      "isPrimaryKey": true,
+      "allowEditing": false
+    },
+    {
+      "title": "email",
+      "width": 150,
+      "filterable": true,
+      "filter": "text",
+      "type": "textbox",
+      "class": "text-align-right",
+      "field": "email",
+      "allowEditing": true
+    },
+    {
+      "title": "count",
+      "width": 150,
+      "filterable": true,
+      "filter": "text",
+      "type": "textbox",
+      "class": "text-align-right",
+      "field": "count",
+      "allowEditing": true
+    }
+  ],
+  "configField": [
+    {
+      "type": "textbox",
+      "width": "col-md-12 hidden",
+      "name": "id",
+      "label": "ID",
+      "field": "id",
+      "readonly": true
+    },
+    {
+      "type": "textbox",
+      "width": "col-md-12",
+      "name": "count",
+      "label": "count",
+      "field": "count"
+    },
+    {
+      "type": "button",
+      "width": "col-md-12",
+      "class": "e-control e-btn e-lib e-primary e-flat",
+      "name": "submit",
+      "label": "Save",
+      "field": "submit",
+      "positionClass": "text-align: end"
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+[
+  {
+    "type": "textbox",
+    "width": "col-md-4",
+    "name": "firstname",
+    "label": "firstname",
+    "field": "firstname"
+  },
+  {
+    "type": "textbox",
+    "width": "col-md-4",
+    "name": "lastname",
+    "label": "lastname",
+    "field": "lastname"
+  },
+  {
+    "type": "textbox",
+    "width": "col-md-4",
+    "name": "shortname",
+    "label": "shortname",
+    "field": "shortname"
+  },
+  {
+    "type": "textbox",
+    "width": "col-md-4",
+    "name": "street",
+    "label": "street",
+    "field": "street"
+  },
+  {
+    "type": "textbox",
+    "width": "col-md-4",
+    "name": "zipcode",
+    "label": "zipcode",
+    "field": "zipcode"
+  },
+  {
+    "type": "textbox",
+    "width": "col-md-4",
+    "name": "place",
+    "label": "place",
+    "field": "place"
+  },
+  {
+    "type": "textbox",
+    "width": "col-md-4",
+    "name": "email",
+    "label": "email",
+    "field": "email",
+    "disabled": true
+  },
+  {
+    "type": "textbox",
+    "width": "col-md-4",
+    "name": "telephone",
+    "label": "telephone",
+    "field": "telephone"
+  },
+  {
+    "type": "textbox",
+    "width": "col-md-4",
+    "name": "mobile",
+    "label": "mobile",
+    "field": "mobile"
+  },
+  {
+    "type": "datepicker",
+    "width": "col-md-4",
+    "format": "dd.MM.yyyy",
+    "name": "birthday",
+    "label": "birthday",
+    "field": "birthday"
+  },
+  {
+    "type": "datepicker",
+    "width": "col-md-4",
+    "format": "dd.MM.yyyy",
+    "name": "incompanysince",
+    "label": "incompanysince",
+    "field": "incompanysince"
+  },
+  {
+    "type": "button",
+    "width": "col-md-12",
+    "class": "e-control e-btn e-lib e-primary e-flat",
+    "name": "submit",
+    "label": "save",
+    "field": "submit",
+    "positionClass": "text-align: end"
+  }
+]

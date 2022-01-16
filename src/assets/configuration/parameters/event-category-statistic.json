@@ -1,0 +1,178 @@
+{
+  "id": "ta",
+  "title": "Template Account",
+  "pageSize": 10,
+  "request": {
+    "type": "GET",
+    "api": "/api/getEventCategoryStatistic",
+    "parameters": ["superadmin"],
+    "fields": "",
+    "root": ""
+  },
+  "paging": {
+    "enable": true,
+    "settings": {
+      "pageSize": 10
+    }
+  },
+  "sorting": {
+    "enable": true,
+    "initalSorting": {
+      "columns": [
+        {
+          "field": "id",
+          "direction": "Descending"
+        }
+      ]
+    }
+  },
+  "grouping": {
+    "enable": true,
+    "group": []
+  },
+  "filtering": {
+    "enable": false
+  },
+  "customGrouping": false,
+  "allowResizing": true,
+  "reorderable": true,
+  "selectable": true,
+  "scrollable": false,
+  "hideable": true,
+  "refresh": false,
+  "reset": true,
+  "toolbar": ["Add", "Edit", "Delete", "Print", "Search"],
+  "editSettings": {
+    "allowEditing": true,
+    "allowAdding": true,
+    "allowDeleting": true,
+    "showDeleteConfirmDialog": true,
+    "mode": "Dialog"
+  },
+  "editSettingsRequest": {
+    "add": {
+      "type": "POST",
+      "api": "/api/createEventCategoryStatistic",
+      "parameters": ["superadmin"],
+      "fields": "",
+      "root": ""
+    },
+    "edit": {
+      "type": "POST",
+      "api": "/api/updateEventCategoryStatistic",
+      "parameters": [],
+      "fields": "",
+      "root": ""
+    },
+    "delete": {
+      "type": "POST",
+      "api": "/api/deleteEventCategoryStatistic",
+      "parameters": [],
+      "fields": "",
+      "root": ""
+    }
+  },
+  "columns": [
+    {
+      "title": "ID",
+      "width": 80,
+      "filterable": true,
+      "type": "string",
+      "class": "text-align-right",
+      "field": "id"
+    },
+    {
+      "title": "sequence",
+      "filterable": true,
+      "type": "numeric",
+      "class": "text-align-right",
+      "field": "sequence"
+    },
+    {
+      "title": "nameOfCount",
+      "filterable": true,
+      "type": "string",
+      "class": "text-align-right",
+      "field": "name"
+    },
+    {
+      "title": "shortnameOfCount",
+      "filterable": true,
+      "type": "string",
+      "class": "text-align-right",
+      "field": "shortname"
+    },
+    {
+      "title": "displayOfCount",
+      "filterable": true,
+      "type": "string",
+      "class": "text-align-right",
+      "field": "display"
+    }
+  ],
+  "configField": [
+    {
+      "type": "textbox",
+      "name": "id",
+      "label": "ID",
+      "field": "id",
+      "readonly": true
+    },
+    {
+      "type": "textbox",
+      "label": "sequenceOfCount",
+      "filterable": true,
+      "name": "sequence",
+      "class": "text-align-right",
+      "field": "sequence"
+    },
+    {
+      "type": "textbox",
+      "label": "nameOfCount",
+      "filterable": true,
+      "name": "name",
+      "class": "text-align-right",
+      "field": "name"
+    },
+    {
+      "type": "textbox",
+      "label": "shortnameOfCount",
+      "filterable": true,
+      "name": "shortname",
+      "class": "text-align-right",
+      "field": "shortname"
+    },
+    {
+      "type": "multiselect",
+      "name": "categorie",
+      "label": "categoryOfCount",
+      "field": { "text": "category", "value": "id" },
+      "request": {
+        "type": "GET",
+        "api": "/api/getEventCategory",
+        "parameters": ["superadmin"],
+        "fields": "",
+        "root": ""
+      },
+      "fieldConfig": {
+        "ignoreAccent": false,
+        "filter": true
+      }
+    },
+    {
+      "type": "checkbox",
+      "width": "col-md-12",
+      "name": "display",
+      "label": "displayOfCount",
+      "field": "display"
+    },
+    {
+      "type": "button",
+      "class": "e-control e-btn e-lib e-primary e-flat",
+      "name": "submit",
+      "label": "Save",
+      "field": "submit",
+      "positionClass": "text-align: end"
+    }
+  ]
+}

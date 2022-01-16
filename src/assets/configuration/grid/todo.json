@@ -1,0 +1,299 @@
+{
+  "id": "g1",
+  "title": "TEST GRID2",
+  "pageSize": 10,
+  "request": {
+    "type": "GET",
+    "api": "/api/getToDo",
+    "parameters": [],
+    "fields": "",
+    "root": ""
+  },
+  "paging": {
+    "enable": true,
+    "settings": {
+      "pageSize": 10
+    }
+  },
+  "sorting": {
+    "enable": true,
+    "initalSorting": {
+      "columns": [
+        {
+          "field": "id",
+          "direction": "Descending"
+        }
+      ]
+    }
+  },
+  "grouping": {
+    "enable": true,
+    "group": []
+  },
+  "filtering": {
+    "enable": false
+  },
+  "customGrouping": false,
+  "allowResizing": true,
+  "reorderable": true,
+  "selectable": true,
+  "scrollable": false,
+  "hideable": true,
+  "refresh": false,
+  "reset": true,
+  "toolbar": ["Add", "Edit", "Delete", "Print", "Search"],
+  "editSettings": {
+    "allowEditing": true,
+    "allowAdding": true,
+    "allowDeleting": true,
+    "showDeleteConfirmDialog": true,
+    "mode": "Dialog"
+  },
+  "editSettingsRequest": {
+    "add": {
+      "type": "POST",
+      "api": "/api/createToDo",
+      "parameters": [],
+      "fields": "",
+      "root": ""
+    },
+    "edit": {
+      "type": "POST",
+      "api": "/api/updateToDo",
+      "parameters": [],
+      "fields": "",
+      "root": ""
+    },
+    "delete": {
+      "type": "POST",
+      "api": "/api/deleteTodo",
+      "parameters": [],
+      "fields": "",
+      "root": ""
+    }
+
+  },
+  "columns": [
+    {
+      "title": "ID",
+      "width": 50,
+      "filterable": true,
+      "hideable": true,
+      "filter": "date",
+      "type": "number",
+      "class": "text-align-right",
+      "field": "id",
+      "isPrimaryKey": true,
+      "allowEditing": false
+    },
+    {
+      "title": "Priority",
+      "width": 120,
+      "filterable": true,
+      "hideable": true,
+      "type": "string",
+      "class": "text-align-right",
+      "field": "priority",
+      "validation": { "required": true }
+    },
+    {
+      "title": "Date",
+      "width": 120,
+      "filterable": true,
+      "hideable": true,
+      "type": "date",
+      "class": "text-align-right",
+      "defaultValue": "no date",
+      "field": "date",
+      "format": { "type": "date", "format": "dd/MM/yyyy" }
+    },
+    {
+      "title": "Description",
+      "width": 250,
+      "filterable": true,
+      "hideable": true,
+      "type": "string",
+      "class": "text-align-right",
+      "field": "description"
+    },
+    {
+      "title": "Comment developer",
+      "width": 250,
+      "filterable": true,
+      "hideable": true,
+      "type": "string",
+      "class": "text-align-right",
+      "field": "commentDeveloper"
+    },
+    {
+      "title": "Implemented",
+      "width": 120,
+      "filterable": true,
+      "hideable": true,
+      "type": "date",
+      "class": "text-align-right",
+      "defaultValue": "no date",
+      "field": "implemented",
+      "format": { "type": "date", "format": "dd/MM/yyyy" }
+    },
+    {
+      "title": "Comment implementation",
+      "width": 250,
+      "filterable": true,
+      "hideable": true,
+      "type": "string",
+      "class": "text-align-right",
+      "field": "commentImplementation"
+    },
+    {
+      "title": "Tested",
+      "width": 120,
+      "filterable": true,
+      "hideable": true,
+      "type": "date",
+      "class": "text-align-right",
+      "defaultValue": "no date",
+      "field": "tested",
+      "format": { "type": "date", "format": "dd/MM/yyyy" }
+    },
+    {
+      "title": "Comment testing",
+      "width": 250,
+      "filterable": true,
+      "hideable": true,
+      "type": "string",
+      "class": "text-align-right",
+      "field": "commentTesting"
+    },
+    {
+      "title": "Finished",
+      "width": 120,
+      "filterable": true,
+      "hideable": true,
+      "type": "date",
+      "class": "text-align-right",
+      "defaultValue": "no date",
+      "field": "finished",
+      "format": { "type": "date", "format": "dd/MM/yyyy" }
+    },
+    {
+      "title": "Comment finished",
+      "width": 250,
+      "filterable": true,
+      "hideable": true,
+      "type": "string",
+      "class": "text-align-right",
+      "field": "commentFinished"
+    }
+  ],
+  "configField": [
+    {
+      "type": "textbox",
+      "width": "col-md-12",
+      "name": "id",
+      "label": "ID",
+      "field": "id",
+      "readonly": true
+    },
+    {
+      "type": "dropdown",
+      "width": "col-md-12",
+      "name": "priority",
+      "label": "Priority",
+      "field": "priority",
+      "data": {
+        "translation": {
+          "property": "priority",
+          "fields": { "text": "text", "value": "text" }
+        }
+      },
+      "request": null,
+      "placeholder": "Please enter priority for task",
+      "fieldConfig": {
+        "ignoreAccent": false,
+        "filter": false
+      }
+    },
+    {
+      "type": "datepicker",
+      "width": "col-md-12",
+      "name": "date",
+      "label": "Date",
+      "field": "date",
+      "placeholder": "Please enter date for initial task!"
+    },
+    {
+      "type": "textarea",
+      "width": "col-md-12",
+      "name": "description",
+      "label": "Description for task",
+      "field": "description",
+      "placeholder": "Please enter description for task! What need to do?"
+    },
+    {
+      "type": "textarea",
+      "width": "col-md-12",
+      "name": "commentDeveloper",
+      "label": "Comment developer",
+      "field": "commentDeveloper",
+      "placeholder": "Developer, please enter your comment"
+    },
+    {
+      "type": "datepicker",
+      "width": "col-md-12",
+      "name": "implemented",
+      "label": "Implemented",
+      "field": "implemented",
+      "placeholder": "Please enter date when implemented!"
+    },
+    {
+      "type": "textarea",
+      "width": "col-md-12",
+      "name": "commentImplementation",
+      "label": "Comment implementation",
+      "field": "commentImplementation",
+      "placeholder": "Please enter implementation comment!"
+    },
+    {
+      "type": "datepicker",
+      "width": "col-md-12",
+      "name": "tested",
+      "label": "Tested",
+      "field": "tested",
+      "placeholder": "Please enter date when task tested!"
+    },
+    {
+      "type": "textarea",
+      "width": "col-md-12",
+      "name": "commentTesting",
+      "label": "Comment testing",
+      "field": "commentTesting",
+      "placeholder": "Please enter comment after tested!"
+    },
+    {
+      "type": "datepicker",
+      "width": "col-md-12",
+      "name": "finished",
+      "label": "Finished",
+      "field": "finished",
+      "placeholder": "Please enter date when task finished!"
+    },
+    {
+      "type": "textarea",
+      "width": "col-md-12",
+      "name": "commentFinished",
+      "label": "Comment finished",
+      "field": "commentFinished",
+      "placeholder": "Please enter finished comment!"
+    },
+    {
+      "type": "button",
+      "width": "col-md-12",
+      "class": "e-control e-btn e-lib e-primary e-flat",
+      "name": "submit",
+      "label": "Save",
+      "field": "submit",
+      "positionClass": "text-align: end"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+[
+    {
+      "type": "checkbox",
+      "width": "col-md-12",
+      "name": "email",
+      "label": "sendReminderViaEMail",
+      "field": "email"
+    },
+    {
+      "type": "checkbox",
+      "width": "col-md-12",
+      "name": "sms",
+      "label": "sendReminderViaSMS",
+      "field": "sms"
+    },
+    {
+      "type": "button",
+      "width": "col-md-12",
+      "class": "e-control e-btn e-lib e-primary e-flat",
+      "name": "submit",
+      "label": "changeReminderSettingsButton",
+      "field": "submit",
+      "positionClass": "text-align: end"
+    }
+  ]

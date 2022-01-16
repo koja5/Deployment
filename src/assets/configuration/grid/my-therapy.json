@@ -1,0 +1,117 @@
+{
+  "pageSize": 10,
+  "request": {
+    "type": "GET",
+    "api": "/api/getTherapyForCustomer",
+    "parameters": ["getMe"],
+    "fields": "",
+    "root": ""
+  },
+  "paging": {
+    "enable": true,
+    "settings": {
+      "pageSize": 10
+    }
+  },
+  "sorting": {
+    "enable": true,
+    "initalSorting": {
+      "columns": [
+        {
+          "field": "date",
+          "direction": "Descending"
+        }
+      ]
+    }
+  },
+  "grouping": {
+    "enable": true,
+    "group": [{ "field": "processConfigurationName" }]
+  },
+  "filtering": {
+    "enable": false
+  },
+  "customGrouping": false,
+  "allowResizing": true,
+  "reorderable": true,
+  "selectable": true,
+  "scrollable": false,
+  "hideable": true,
+  "refresh": false,
+  "reset": true,
+  "toolbar": ["Print", "Search"],
+  "editSettings": {
+    "allowEditing": false,
+    "allowAdding": false,
+    "allowDeleting": false,
+    "showDeleteConfirmDialog": false,
+    "mode": "Dialog"
+  },
+  "columns": [
+    {
+      "title": "date",
+      "width": 150,
+      "filterable": true,
+      "hideable": true,
+      "type": "string",
+      "class": "text-align-right",
+      "defaultValue": "no date",
+      "field": "date"
+    },
+    {
+      "title": "complaintValue",
+      "width": 250,
+      "filterable": true,
+      "hideable": true,
+      "type": "string",
+      "class": "text-align-right",
+      "field": "complaint_title"
+    },
+    {
+      "title": "comment",
+      "width": 250,
+      "filterable": true,
+      "hideable": true,
+      "type": "string",
+      "class": "text-align-right",
+      "field": "comment"
+    },
+    {
+      "title": "therapyValue",
+      "width": 200,
+      "filterable": true,
+      "hideable": true,
+      "type": "string",
+      "class": "text-align-right",
+      "field": "therapies_title"
+    },
+    {
+      "title": "treatmentValue",
+      "width": 120,
+      "filterable": true,
+      "hideable": true,
+      "type": "string",
+      "class": "text-align-right",
+      "field": "therapies_previous_title"
+    },
+    {
+      "title": "cs",
+      "width": 120,
+      "filterable": true,
+      "hideable": true,
+      "type": "string",
+      "class": "text-align-right",
+      "field": "cs_title"
+    },
+    {
+      "title": "em",
+      "width": 120,
+      "filterable": true,
+      "hideable": true,
+      "type": "string",
+      "class": "text-align-right",
+      "field": "em_title"
+    }
+  ],
+  "configField": []
+}

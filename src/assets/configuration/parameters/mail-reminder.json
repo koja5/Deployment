@@ -1,0 +1,144 @@
+[
+  {
+    "type": "textbox",
+    "width": "col-md-12",
+    "name": "mailSubject",
+    "label": "mailSubject",
+    "field": "mailSubject"
+  },
+  {
+    "type": "textbox",
+    "width": "col-md-12",
+    "name": "mailInitialGreeting",
+    "label": "mailInitialGreeting",
+    "field": "mailInitialGreeting"
+  },
+  {
+    "type": "textarea",
+    "width": "col-md-12",
+    "name": "mailMessage",
+    "label": "mailMessage",
+    "field": "mailMessage"
+  },
+  {
+    "type": "textbox",
+    "width": "col-md-4",
+    "name": "mailDate",
+    "label": "mailDate",
+    "field": "mailDate"
+  },
+  {
+    "type": "textbox",
+    "width": "col-md-4",
+    "name": "mailTime",
+    "label": "mailTime",
+    "field": "mailTime"
+  },
+  {
+    "type": "textbox",
+    "width": "col-md-4",
+    "name": "mailClinic",
+    "label": "mailClinic",
+    "field": "mailClinic"
+  },
+  {
+    "type": "textbox",
+    "width": "col-md-4",
+    "name": "mailTherapy",
+    "label": "mailTherapy",
+    "field": "mailTherapy"
+  },
+  {
+    "type": "textbox",
+    "width": "col-md-4",
+    "name": "mailDoctor",
+    "label": "mailDoctor",
+    "field": "mailDoctor"
+  },
+  {
+    "type": "textbox",
+    "width": "col-md-4",
+    "name": "mailFinalGreeting",
+    "label": "mailFinalGreeting",
+    "field": "mailFinalGreeting"
+  },
+  {
+    "type": "textbox",
+    "width": "col-md-4",
+    "name": "mailSignature",
+    "label": "mailSignature",
+    "field": "mailSignature"
+  },
+  {
+    "type": "textbox",
+    "width": "col-md-4",
+    "name": "mailThanksForUsing",
+    "label": "mailThanksForUsing",
+    "field": "mailThanksForUsing"
+  },
+  {
+    "type": "textbox",
+    "width": "col-md-4",
+    "name": "mailIfYouHaveQuestion",
+    "label": "mailIfYouHaveQuestion",
+    "field": "mailIfYouHaveQuestion"
+  },
+  {
+    "type": "textbox",
+    "width": "col-md-4",
+    "name": "mailNotReply",
+    "label": "mailNotReply",
+    "field": "mailNotReply"
+  },
+  {
+    "type": "textbox",
+    "width": "col-md-8",
+    "name": "mailCopyRight",
+    "label": "mailCopyRight",
+    "field": "mailCopyRight"
+  },
+  {
+    "type": "switch",
+    "width": "col-md-12",
+    "name": "signatureAvailable",
+    "label": "signatureAvailable",
+    "field": "signatureAvailable"
+  },
+  {
+    "type": "textbox",
+    "width": "col-md-6",
+    "name": "signatureAddress",
+    "label": "signatureAddress",
+    "field": "signatureAddress"
+  },
+  {
+    "type": "textbox",
+    "width": "col-md-6",
+    "name": "signatureTelephone",
+    "label": "signatureTelephone",
+    "field": "signatureTelephone"
+  },
+  {
+    "type": "textbox",
+    "width": "col-md-6",
+    "name": "signatureMobile",
+    "label": "signatureMobile",
+    "field": "signatureMobile"
+  },
+  {
+    "type": "textbox",
+    "width": "col-md-6",
+    "name": "signatureEmail",
+    "label": "signatureEmail",
+    "field": "signatureEmail"
+  },
+  {
+    "type": "button",
+    "width": "col-md-12",
+    "class": "e-control e-btn e-lib e-primary e-flat",
+    "name": "submit",
+    "label": "save",
+    "field": "submit",
+    "positionClass": "text-align: end"
+  }
+]

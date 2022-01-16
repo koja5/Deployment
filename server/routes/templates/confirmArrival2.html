@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en"
+  style="box-sizing: border-box;border-width: 0;border-style: solid;border-color: #dae1e7;line-height: 1.15;-webkit-text-size-adjust: 100%;font-family: sans-serif;">
+
+<head style="box-sizing: inherit;border-width: 0;border-style: solid;border-color: #dae1e7;">
+  <meta charset="UTF-8" style="box-sizing: inherit;border-width: 0;border-style: solid;border-color: #dae1e7;">
+  <title style="box-sizing: inherit;border-width: 0;border-style: solid;border-color: #dae1e7;">Confirm Arrival -
+    ClinicNode</title>
+  <link rel="stylesheet" href="https://unpkg.com/tailwindcss@0.7.4/dist/tailwind.min.css"
+    style="box-sizing: inherit;border-width: 0;border-style: solid;border-color: #dae1e7;">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.4/css/all.css"
+    style="box-sizing: inherit;border-width: 0;border-style: solid;border-color: #dae1e7;">
+  <style>
+    table,
+    th,
+    td {
+      border: 1px solid black;
+      border-collapse: collapse;
+    }
+
+    th,
+    td {
+      padding: 5px;
+      text-align: left;
+    }
+
+    @media (max-width: 768px) {
+      .date-large {
+        display: none;
+      }
+    }
+
+    @media (min-width: 768px) {
+      .date-small {
+        display: none;
+      }
+    }
+  </style>
+</head>
+
+<body style="box-sizing: inherit;border-width: 0;border-style: solid;border-color: #dae1e7;margin: 0;">
+  <!-- partial:index.partial.html -->
+  <div class="app font-sans min-w-screen min-h-screen bg-grey-lighter py-8 px-4"
+    style="box-sizing: inherit;border-width: 0;border-style: solid;border-color: #dae1e7;background-color: #f1f5f8;font-family: system-ui,BlinkMacSystemFont,-apple-system,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;min-height: 100vh;padding-left: 1rem;padding-right: 1rem;padding-top: 2rem;padding-bottom: 2rem;">
+
+    <div class="mail__wrapper max-w-md mx-auto"
+      style="box-sizing: inherit;border-width: 0;border-style: solid;border-color: #dae1e7;margin-left: auto;margin-right: auto;max-width: 40rem;">
+
+      <div class="mail__content bg-white p-8 shadow-md"
+        style="box-sizing: inherit;border-width: 0;border-style: solid;border-color: #dae1e7;background-color: #fff;padding: 2rem;box-shadow: 0 4px 8px 0 rgba(0,0,0,.12),0 2px 4px 0 rgba(0,0,0,.08);">
+
+        <div class="content__header text-center tracking-wide border-b"
+          style="box-sizing: inherit;border-width: 0;border-style: solid;border-color: #dae1e7;border-bottom-width: 1px;text-align: center;letter-spacing: .05em;">
+          <div class="text-red text-sm font-bold h-24"
+            style="box-sizing: inherit;border-width: 0;border-style: solid;border-color: #dae1e7;font-weight: 700;height: 6rem;color: #e3342f;font-size: .875rem;">
+            <img src="http://app-production.eu:8080/assets/images/brand-logo.png"
+              style="width: 280px;box-sizing: inherit;border-width: 0;border-style: solid;border-color: #dae1e7;max-width: 100%;height: auto;">
+          </div>
+        </div>
+
+        <div class="content__body py-8 border-b"
+          style="box-sizing: inherit;border-width: 0;border-style: solid;border-color: #dae1e7;border-bottom-width: 1px;padding-top: 2rem;padding-bottom: 2rem;">
+          <p style="box-sizing: inherit;border-width: 0;border-style: solid;border-color: #dae1e7;margin: 0;">
+            Hey {{firstName}}, <br
+              style="box-sizing: inherit;border-width: 0;border-style: solid;border-color: #dae1e7;"><br
+              style="box-sizing: inherit;border-width: 0;border-style: solid;border-color: #dae1e7;">You are coming to
+            us for treatment soon, we are very happy about that. The treatment is scheduled for the following date:</p>
+
+          <div style="text-align: center; padding: 15px;">
+            <table style="width:80%; margin: auto;">
+              <tr class="date-large">
+                <td
+                  style="width: 30%; background: #01A9E9; color: #fff; text-align: center; font-weight: bold; font-size: 18px;">
+                  {{month}}
+                  {{day}}
+                </td>
+                <td>
+                  <p style="text-align: initial; font-size: 13px; margin: 0px">Date: <span
+                      style="font-size: 15px; font-weight: bold;">{{date}}</span>
+                  </p>
+                  <p style="text-align: initial; font-size: 13px; margin: 0px">Time: <span
+                      style="font-size: 15px; font-weight: bold;">{{start}} - {{end}}</span></p>
+                  <p style="text-align: initial; font-size: 13px; margin: 0px">Therapy: <span
+                      style="font-size: 15px; font-weight: bold;">{{therapy}}</span></p>
+                  <p style="text-align: initial; font-size: 13px; margin: 0px">Doctor: <span
+                      style="font-size: 15px; font-weight: bold;">{{doctor}}</span></p>
+
+                </td>
+              </tr>
+              <tr class="date-small">
+                <td
+                  style="width: 30%; background: #01A9E9; color: #fff; text-align: center; font-weight: bold; font-size: 18px;">
+                  {{month}}
+                  {{day}}
+                </td>
+              </tr>
+              <tr class="date-small">
+                <td>
+                  <p style="text-align: initial; font-size: 13px; margin: 0px">Date: <span
+                      style="font-size: 15px; font-weight: bold;">{{date}}</span>
+                  </p>
+                  <p style="text-align: initial; font-size: 13px; margin: 0px">Time: <span
+                      style="font-size: 15px; font-weight: bold;">{{start}} - {{end}}</span></p>
+                  <p style="text-align: initial; font-size: 13px; margin: 0px">Therapy: <span
+                      style="font-size: 15px; font-weight: bold;">{{therapy}}</span></p>
+                  <p style="text-align: initial; font-size: 13px; margin: 0px">Doctor: <span
+                      style="font-size: 15px; font-weight: bold;">{{doctor}}</span></p>
+
+                </td>
+              </tr>
+            </table>
+          </div>
+          <br>
+          <p style="box-sizing: inherit;border-width: 0;border-style: solid;border-color: #dae1e7;margin: 0;">Please
+            confirm your arrival by clicking the button below or let us know if you are prevented.
+          </p>
+          <a href={{verificationLink}} style="cursor: pointer; text-decoration: initial;"><button
+              class="text-white text-sm tracking-wide rounded w-full my-8 p-4 "
+              style="background: #01A9E9;box-sizing: inherit;border-width: 0;border-style: solid;border-color: #dae1e7;font-family: inherit;font-size: .875rem;line-height: 1.15;margin: 0;overflow: visible;text-transform: none;-webkit-appearance: button;padding: 1rem;cursor: pointer;border-radius: .25rem;margin-top: 2rem;margin-bottom: 2rem;color: #fff;letter-spacing: .05em;">CONFIRM
+              ARRIVAL</button></a>
+          <p class="text-sm"
+            style="box-sizing: inherit;border-width: 0;border-style: solid;border-color: #dae1e7;margin: 0;font-size: .875rem;">
+            Thanks,<br style="box-sizing: inherit;border-width: 0;border-style: solid;border-color: #dae1e7;">
+            ClinicNode Team
+          </p>
+        </div>
+
+        <div class="content__footer mt-8 text-center text-grey-darker"
+          style="box-sizing: inherit;border-width: 0;border-style: solid;border-color: #dae1e7;margin-top: 2rem;text-align: center;color: #606f7b;">
+          <h3 class="text-base sm:text-lg mb-4"
+            style="box-sizing: inherit;border-width: 0;border-style: solid;border-color: #dae1e7;margin: 0;margin-bottom: 1rem;font-size: 1.125rem;">
+            Thanks for using ClinicNode!</h3>
+          <p style="box-sizing: inherit;border-width: 0;border-style: solid;border-color: #dae1e7;margin: 0;">
+            www.clinicnode.com</p>
+        </div>
+
+      </div>
+
+      <div class="mail__meta text-center text-sm text-grey-darker mt-8"
+        style="box-sizing: inherit;border-width: 0;border-style: solid;border-color: #dae1e7;margin-top: 2rem;text-align: center;color: #606f7b;font-size: .875rem;">
+
+        <div class="meta__social flex justify-center my-4"
+          style="box-sizing: inherit;border-width: 0;border-style: solid;border-color: #dae1e7;display: flex;justify-content: center;margin-top: 1rem;margin-bottom: 1rem;">
+          <a href="#"
+            class="flex items-center justify-center mr-4 bg-black text-white rounded-full w-8 h-8 no-underline"
+            style="box-sizing: inherit;border-width: 0;border-style: solid;border-color: #dae1e7;background-color: #22292f;border-radius: 9999px;display: flex;align-items: center;justify-content: center;height: 2rem;margin-right: 1rem;color: #fff;text-decoration: none;width: 2rem;"><i
+              class="fab fa-facebook-f"
+              style="box-sizing: inherit;border-width: 0;border-style: solid;border-color: #dae1e7;-moz-osx-font-smoothing: grayscale;-webkit-font-smoothing: antialiased;display: inline-block;font-style: normal;font-variant: normal;text-rendering: auto;line-height: 1;font-family: Font Awesome\ 5 Brands;"></i></a>
+          <a href="#"
+            class="flex items-center justify-center mr-4 bg-black text-white rounded-full w-8 h-8 no-underline"
+            style="box-sizing: inherit;border-width: 0;border-style: solid;border-color: #dae1e7;background-color: #22292f;border-radius: 9999px;display: flex;align-items: center;justify-content: center;height: 2rem;margin-right: 1rem;color: #fff;text-decoration: none;width: 2rem;"><i
+              class="fab fa-instagram"
+              style="box-sizing: inherit;border-width: 0;border-style: solid;border-color: #dae1e7;-moz-osx-font-smoothing: grayscale;-webkit-font-smoothing: antialiased;display: inline-block;font-style: normal;font-variant: normal;text-rendering: auto;line-height: 1;font-family: Font Awesome\ 5 Brands;"></i></a>
+          <a href="#" class="flex items-center justify-center bg-black text-white rounded-full w-8 h-8 no-underline"
+            style="box-sizing: inherit;border-width: 0;border-style: solid;border-color: #dae1e7;background-color: #22292f;border-radius: 9999px;display: flex;align-items: center;justify-content: center;height: 2rem;color: #fff;text-decoration: none;width: 2rem;"><i
+              class="fab fa-twitter"
+              style="box-sizing: inherit;border-width: 0;border-style: solid;border-color: #dae1e7;-moz-osx-font-smoothing: grayscale;-webkit-font-smoothing: antialiased;display: inline-block;font-style: normal;font-variant: normal;text-rendering: auto;line-height: 1;font-family: Font Awesome\ 5 Brands;"></i></a>
+        </div>
+
+        <div class="meta__help" style="box-sizing: inherit;border-width: 0;border-style: solid;border-color: #dae1e7;">
+          <p class="leading-loose"
+            style="box-sizing: inherit;border-width: 0;border-style: solid;border-color: #dae1e7;margin: 0;line-height: 2;">
+            If you have question? <a href="#" class="text-grey-darkest"
+              style="box-sizing: inherit;border-width: 0;border-style: solid;border-color: #dae1e7;background-color: transparent;color: #3d4852;">help@clinicnode.com</a>
+          </p>
+        </div>
+        <div class="auto-generate"
+          style="font-size: 10px;box-sizing: inherit;border-width: 0;border-style: solid;border-color: #dae1e7;">
+          <p style="box-sizing: inherit;border-width: 0;border-style: solid;border-color: #dae1e7;margin: 0;">
+            This is an automated email - please do not reply.
+          </p>
+          <p style="box-sizing: inherit;border-width: 0;border-style: solid;border-color: #dae1e7;margin: 0;">
+            Copyright © 2020 ClinicNode, All rights reserved.
+          </p>
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+  <!-- partial -->
+
+</body>
+
+</html>

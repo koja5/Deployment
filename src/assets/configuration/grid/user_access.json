@@ -1,0 +1,189 @@
+{
+  "id": "ta",
+  "title": "User access",
+  "pageSize": 10,
+  "request": {
+    "type": "GET",
+    "api": "/api/getUserAccess",
+    "parameters": ["superadmin"],
+    "fields": "",
+    "root": ""
+  },
+  "paging": {
+    "enable": true,
+    "settings": {
+      "pageSize": 10
+    }
+  },
+  "sorting": {
+    "enable": true,
+    "initalSorting": {
+      "columns": [
+        {
+          "field": "date",
+          "direction": "Descending"
+        }
+      ]
+    }
+  },
+  "grouping": {
+    "enable": true,
+    "group": []
+  },
+  "filtering": {
+    "enable": false
+  },
+  "customGrouping": false,
+  "allowResizing": true,
+  "reorderable": true,
+  "selectable": true,
+  "scrollable": false,
+  "hideable": true,
+  "refresh": false,
+  "reset": true,
+  "toolbar": ["Edit", "Print", "Search"],
+  "editSettings": {
+    "allowEditing": true,
+    "allowAdding": false,
+    "allowDeleting": false,
+    "showDeleteConfirmDialog": true,
+    "mode": "Dialog"
+  },
+  "editSettingsRequest": {
+    "edit": {
+      "type": "POST",
+      "api": "/api/updateUserAccess",
+      "parameters": [],
+      "fields": "",
+      "root": ""
+    }
+  },
+  "columns": [
+    {
+      "title": "ID",
+      "width": 80,
+      "filterable": true,
+      "type": "string",
+      "class": "text-align-right",
+      "field": "id",
+      "allowEditing": false
+    },
+    {
+      "title": "firstname",
+      "filterable": true,
+      "type": "string",
+      "class": "text-align-right",
+      "field": "firstname",
+      "allowEditing": false
+    },
+    {
+      "title": "lastname",
+      "filterable": true,
+      "type": "string",
+      "class": "text-align-right",
+      "field": "lastname",
+      "allowEditing": false
+    },
+    {
+      "title": "macAddress",
+      "filterable": true,
+      "type": "string",
+      "class": "text-align-right",
+      "field": "mac_address",
+      "allowEditing": false
+    },
+    {
+      "title": "email",
+      "filterable": true,
+      "type": "string",
+      "class": "text-align-right",
+      "field": "email",
+      "allowEditing": false
+    },
+    {
+      "title": "userAccessDevice",
+      "filterable": true,
+      "type": "string",
+      "class": "text-align-right",
+      "field": "device_name",
+      "allowEditing": false
+    },
+    {
+      "title": "date",
+      "filterable": true,
+      "hideable": true,
+      "type": "date",
+      "class": "text-align-right",
+      "defaultValue": "no date",
+      "field": "date",
+      "format": { "type": "date", "format": "dd/MM/yyyy hh:MM" }
+    },
+    {
+      "title": "access",
+      "width": 110,
+      "filterable": true,
+      "type": "string",
+      "class": "text-align-right",
+      "field": "access"
+    }
+  ],
+  "configField": [
+    {
+      "type": "textbox",
+      "width": "col-md-12 hide",
+      "name": "id",
+      "label": "ID",
+      "field": "id",
+      "readonly": true
+    },
+    {
+      "type": "textbox",
+      "width": "col-md-12",
+      "name": "mac_address",
+      "label": "mac_address",
+      "field": "mac_address",
+      "readonly": true
+    },
+    {
+      "type": "textbox",
+      "width": "col-md-12",
+      "name": "email",
+      "label": "email",
+      "field": "email",
+      "readonly": true
+    },
+    {
+      "type": "datetime",
+      "width": "col-md-12",
+      "name": "date",
+      "label": "date",
+      "field": "date",
+      "readonly": true
+    },
+    {
+      "type": "textbox",
+      "width": "col-md-12",
+      "name": "device_name",
+      "label": "userAccessDevice",
+      "field": "device_name"
+    },
+    {
+      "type": "checkbox",
+      "subtype": "password",
+      "width": "col-md-12",
+      "name": "access",
+      "label": "access",
+      "field": "access",
+      "required": true
+    },
+    {
+      "type": "button",
+      "width": "col-md-12",
+      "class": "e-control e-btn e-lib e-primary e-flat",
+      "name": "submit",
+      "label": "Save",
+      "field": "submit",
+      "positionClass": "text-align: end"
+    }
+  ]
+}

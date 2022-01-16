@@ -1,0 +1,189 @@
+{
+  "id": "ta",
+  "title": "Template Account",
+  "pageSize": 10,
+  "request": {
+    "type": "GET",
+    "api": "/api/getTemplateAccount",
+    "parameters": [],
+    "fields": "",
+    "root": ""
+  },
+  "paging": {
+    "enable": true,
+    "settings": {
+      "pageSize": 10
+    }
+  },
+  "sorting": {
+    "enable": true,
+    "initalSorting": {
+      "columns": [
+        {
+          "field": "id",
+          "direction": "Descending"
+        }
+      ]
+    }
+  },
+  "grouping": {
+    "enable": true,
+    "group": []
+  },
+  "filtering": {
+    "enable": false
+  },
+  "customGrouping": false,
+  "allowResizing": true,
+  "reorderable": true,
+  "selectable": true,
+  "scrollable": false,
+  "hideable": true,
+  "refresh": false,
+  "reset": true,
+  "toolbar": ["Add", "Edit", "Delete", "Print", "Search"],
+  "editSettings": {
+    "allowEditing": true,
+    "allowAdding": true,
+    "allowDeleting": true,
+    "showDeleteConfirmDialog": true,
+    "mode": "Dialog"
+  },
+  "editSettingsRequest": {
+    "add": {
+      "type": "POST",
+      "api": "/api/createTemplateAccount",
+      "parameters": [],
+      "fields": "",
+      "root": ""
+    },
+    "edit": {
+      "type": "POST",
+      "api": "/api/updateTemplateAccount",
+      "parameters": [],
+      "fields": "",
+      "root": ""
+    },
+    "delete": {
+      "type": "POST",
+      "api": "/api/deleteTemplateAccount",
+      "parameters": [],
+      "fields": "",
+      "root": ""
+    }
+  },
+  "columns": [
+    {
+      "title": "ID",
+      "width": 80,
+      "filterable": true,
+      "type": "string",
+      "class": "text-align-right",
+      "field": "id"
+    },
+    {
+      "title": "Name of template",
+      "filterable": true,
+      "type": "string",
+      "class": "text-align-right",
+      "field": "name"
+    },
+    {
+      "title": "Language",
+      "filterable": true,
+      "type": "string",
+      "class": "text-align-right",
+      "field": "language"
+    },
+    {
+      "title": "Email",
+      "filterable": true,
+      "type": "string",
+      "class": "text-align-right",
+      "field": "email"
+    },
+    {
+      "title": "Account Id",
+      "filterable": true,
+      "type": "string",
+      "class": "text-align-right",
+      "field": "account_id"
+    }
+  ],
+  "configField": [
+    {
+      "type": "textbox",
+      "width": "col-md-12",
+      "name": "id",
+      "label": "ID",
+      "field": "id",
+      "readonly": true
+    },
+    {
+      "type": "textbox",
+      "width": "col-md-12",
+      "name": "name",
+      "label": "Name of template",
+      "field": "name",
+      "required": true
+    },
+    {
+      "type": "dropdown",
+      "width": "col-md-12",
+      "name": "account_id",
+      "label": "Template account",
+      "field": { "text": "email", "value": "id" },
+      "request": {
+        "type": "GET",
+        "api": "/api/getAllSuperadmin",
+        "parameters": [],
+        "fields": "",
+        "root": ""
+      },
+      "placeholder": "Please enter email of user",
+      "fieldConfig": {
+        "ignoreAccent": false,
+        "filter": true
+      },
+      "required": true
+    },
+    {
+      "type": "dropdown",
+      "width": "col-md-12",
+      "name": "language",
+      "label": "Languages",
+      "field": { "text": "language", "value": "language" },
+      "request": {
+        "type": "GET",
+        "api": "/api/getTranslationWithoutConfig",
+        "parameters": [],
+        "fields": "",
+        "root": ""
+      },
+      "placeholder": "Please select language",
+      "fieldConfig": {
+        "ignoreAccent": false,
+        "filter": true
+      },
+      "required": true
+    },
+    {
+      "type": "textbox",
+      "subtype": "password",
+      "width": "col-md-12",
+      "name": "password",
+      "label": "Password",
+      "field": "password",
+      "required": true
+    },
+    {
+      "type": "button",
+      "width": "col-md-12",
+      "class": "e-control e-btn e-lib e-primary e-flat",
+      "name": "submit",
+      "label": "Save",
+      "field": "submit",
+      "positionClass": "text-align: end"
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+[{
+    "name": "Theme1",
+    "MainColor": "#333547",
+    "SideMenuColor": "#ECECF1",
+    "MenuColor": "#b4c9de"
+  },
+  {
+    "name": "Theme2",
+    "MainColor": "#FF8246",
+    "SideMenuColor": "#373A6D",
+    "MenuColor": "#beeef7"
+  },
+  {
+    "name": "Theme3",
+    "MainColor": "#5BD1D7",
+    "SideMenuColor": "#02A5D0",
+    "MenuColor": "#FF502F"
+  },
+  {
+    "name": "Theme4",
+    "MainColor": "#5BD1D7",
+    "SideMenuColor": "#951313",
+    "MenuColor": "#FFFFFF"
+  },
+  {
+    "name": "Theme5",
+    "MainColor": "#18768B",
+    "SideMenuColor": "#133062",
+    "MenuColor": "#FF7600"
+  },
+  {
+    "name": "Theme6",
+    "MainColor": "#c6c6c6",
+    "SideMenuColor": "#2A3F54",
+    "MenuColor": "#5BD1D7"
+  }
+
+
+]
