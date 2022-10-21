@@ -159,7 +159,8 @@
     "errorTextAdd": "New item is not added in grid!",
     "errorTextEdit": "Selected item is not successful edited!",
     "successTextDelete": "Selected item is successful deleted!",
-    "confirmMessageText": "Receive confirm message"
+    "confirmMessageText": "Receive confirm message",
+    "columnName":"Column"
   },
   "dashboard": {
     "profile": "Profile",

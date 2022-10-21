@@ -4,8 +4,7 @@
     "width": "col-md-6",
     "name": "firstname",
     "label": "firstname",
-    "field": "firstname",
-    "value": "Marko"
+    "field": "firstname"
   },
   {
     "type": "textbox",

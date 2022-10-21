@@ -107,23 +107,23 @@
     {
       "type": "textbox",
       "width": "col-md-6",
-      "name": "signatureStreet",
-      "label": "signatureStreet",
-      "field": "signatureStreet"
+      "name": "signatureAddress",
+      "label": "signatureAddress",
+      "field": "signatureAddress"
     },
     {
       "type": "textbox",
       "width": "col-md-6",
-      "name": "signatureZipCode",
-      "label": "signatureZipCode",
-      "field": "signatureZipCode"
+      "name": "signatureTelephone",
+      "label": "signatureTelephone",
+      "field": "signatureTelephone"
     },
     {
       "type": "textbox",
       "width": "col-md-6",
-      "name": "signaturePhone",
-      "label": "signaturePhone",
-      "field": "signaturePhone"
+      "name": "signatureMobile",
+      "label": "signatureMobile",
+      "field": "signatureMobile"
     },
     {
       "type": "textbox",

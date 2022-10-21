@@ -1,0 +1,387 @@
+{
+    "navigationMenuHome": "Startseite",
+    "navigationMenuFeature": "Funktionen",
+    "navigationMenuPrice": "Preis",
+    "navigationMenuContact": "Kontakt",
+    "navigationMenuSignIn": "Einloggen",
+    "navigationMenuSignUp": "Ein Konto erstellen",
+    "serbia": "Serbisch",
+    "english": "Englisch",
+    "germany": "Deutsch",
+    "homeOneSectionTitle": "Plattform zur effizienten Verwaltung und zum Management Ihres Dienstleistungsbetriebs",
+    "homeOneSectionText": "ClinicNode ist ein benutzerfreundliches und hocheffizientes System, das Ihnen dabei hilft, Ihre Geschäftsprozesse in Ihrem Dienstleistungsbetrieb zu organisieren, jederzeit und an jedem Ort. Verwaltung Sie ihre Termine im Unternehmen, oder bieten Sie Ihren Kunden die Möglichkeit zur Online-Reservierung an. Bleiben Sie in Kontakt mit ihren Kunden über unsere innovativen und interaktiven Marketing-Tools, verwalten Sie ihre Mitarbeiter und Filialen und behalten Sie über unsere Management-Tools immer den Überblick über Ihr Unternehmen!",
+    "homeOneSectionButtonLeft": "Erstelle einen kostenlosen Account",
+    "homeOneSectionButtonRight": "Kontaktieren Sie uns",
+    "homeTwoSectionTitle": "ClinicNode wurde entwickelt, um Ihren Dienstleistungsbetrieb effizient und effektiv zu managen, damit Sie mehr Zeit für die wesentlichen Dinge haben",
+    "homeTwoSectionItem1Title": "Mehr Überblick im Business",
+    "homeTwoSectionItem1Text": "Mit ClinicNode können Sie Daten und Informationen mehrerer Mitarbeiter und Filialen managen, was Ihnen einen optimalen Überblick über Ihren Dienstleistungsbetrieb verschafft.",
+    "homeTwoSectionItem2Title": "Kreativität und Innovation",
+    "homeTwoSectionItem2Text": "Neueste Technologien und innovative und kreative Lösungen erleichtern Ihnen Ihre Arbeit im Alltag. Durch stetige Weiterentwicklung unserer Systeme erhalten Sie immer wieder neue und Kreative Inputs und Lösungen um ihr Business weiter zu optimieren.",
+    "homeTwoSectionItem3Title": "Alles an einem Ort",
+    "homeTwoSectionItem3Text": "ClinicNode bietet Ihnen eine einfache Verwaltung von Terminen (inklusive Online-Reservierung für Kunden), Kunden, Filialen, Mitarbeitern, sowie gezielte Marketing-Aktivitäten, Management-Auswertungen, automatisierte Prozesse, wie z. B. Terminerinnerung und Geburtstagswünsche und vieles mehr ...",
+    "homeThreeSectionItem1Title": "Automatisierte Prozesse",
+    "homeThreeSectionItem1Text": "ClinicNode verfügt über eine Reihe von intelligenten und automatisierten Prozessen, die Ihre tägliche Arbeit erleichtert und Sie entlastet. Das spart Zeit, optimiert Ihre Auslastung und erhöht die Kundenbindung und die Zufriedenheit Ihrer Kunden. Sie sind entlastet und haben Ressourcen frei sich über strategische Fragen rund um Ihr Unternehmen Gedanken zu machen.",
+    "homeThreeSectionItem1LeftDescriptionTitle": "Routine Abläufe",
+    "homeThreeSectionItem1LeftDescriptionText": "Neben der Möglickeit der Online-Reservierung für Kunden werden je nach Einstellung automatisch Terminerinnerungen oder Geburtstagswünsche an Ihre Kunden verschickt. Zudem erhält man per Knopfdruck jederzeit einen Überblick über das eigene Unternehmen. Alle Daten werden ausgewertet und dienen Ihnen als Basis für zukünftige Entscheidungen.",
+    "homeThreeSectionItem1RightDescriptionTitle": "Auslastung und Kundenbindung",
+    "homeThreeSectionItem1RightDescriptionText": "Über ausgeklügelte Marketing-Tools können gezielt Kunden angeschrieben werden. Sei es zur Auslastungs-Optimierung, um freie Termine zu füllen, oder um aktuelle Aktionen zu promoten. Kunden haben die Möglichkeit Feedback zu geben und Sie sind jederzeit über die Qualität der gelieferten Arbeit in Ihrem Unternehmen informiert.",
+    "homeThreeSectionItem2Title": "Seien Sie immer auf dem Laufenden - mit zahlreichen Statistiken",
+    "homeThreeSectionItem2Text": "Mit ClinicNode wissen Sie immer, was gerade in Ihrem Unternehmen passiert. Wie ist die Auslastung Ihrer Mitarbeiter oder Ihrer Filialen, wie bewerten Ihre Kunden Ihre Dienstleistungen, wie sind die aktuellen oder zukünftige Umsätze, welche Deckungsbeiträge haben Sie zu erwarten, und vieles mehr ...",
+    "homeThreeSectionItem2LeftDescriptionTitle": "Echtzeitdaten - immer und überall",
+    "homeThreeSectionItem2LeftDescriptionText": "Wo immer Sie auch sind, können Sie verfolgen, was gerade in ihrem Unternehmen passiert, in Echtzeit. Managen Sie Ihre Unternehmens vor dort, wo Sie gerade sind. Über unsere Cloud-Architektur wird das möglich.",
+    "homeThreeSectionItem2RightDescriptionTitle": "Vergangenheit, Gegenwart und Zukunft",
+    "homeThreeSectionItem2RightDescriptionText": "Planen Sie auf der Grundlage Ihrer Daten Ihre zukünftigen Schritte. Dabei können Sie nicht nur auf historische Daten zugreifen, sondern auch in die Zukunft blicken. Damit können jetzt Maßnahmen getroffen werden, um auf die zukünftige Entwicklung Ihres Unternehmens Einfluss zu nehmen.",
+    "homeThreeSectionItem3Title": "Alle Informationen sicher an einem Ort",
+    "homeThreeSectionItem3Text": "Mit ClinicNode haben Sie alle Daten und Informationen an einem Ort vereint. Ob Termine, Kundendaten oder Dokumenten zu Ihren Kunden, sie können auf diese Daten jederzeit und überall zugreifen. Es ermöglicht Ihnen von jedem Ort aus Ihre Termine zu verwalten, einfach Marketing-Aktionen durchzuführen, oder Management-Informationen, wie Auslastung oder Deckungsbeiträge, abzurufen.",
+    "homeThreeSectionItem3LeftDescriptionTitle": "Datensicherheit",
+    "homeThreeSectionItem3LeftDescriptionText": "Die Sicherheit Ihrer Daten spielt für uns eine zentrale Rolle. Dem haben wir sehr viel Aufmerksamkeit geschenkt, ebenso wie der Verfügbarkeit und Ihrer Daten. Laufend werden dafür auch neueste Technologien eingesetzt, um die Sicherheit und die Verfügbarkeit Ihrer Daten zu optimieren!",
+    "homeThreeSectionItem3RightDescriptionTitle": "Verfügbarkeit",
+    "homeThreeSectionItem3RightDescriptionText": "Alle Daten sind von jedem Ort aus mit wenigen Klicks abrufbar. Mit neuesten Servertechnologien und einem durchgängigen Backup-Konzept garantieren wir für eine Hochverfügbarkeit unserer Cloud-App und somit einem durchgängigen Zugriff auf Ihrer Daten.",
+    "featureSectionFirstUpText": "Mehr Kontrolle und Überblick über Ihren Dienstleistungsbetreib",
+    "featureSectionFirstTitle": "Wir haben ein System entwickelt, mit dem Sie alles für Ihr Unternehmen mit ein paar Klicks erledigen können!",
+    "featureSectionFirstText": "ClinicNode wurde entwickelt, Ihnen über Ihr Unternehmen alle Informationen und Daten zur Verfügung zu stellen, um es effizient zu führen. Hochverfügbarkeit und eine adäquate und innovative Lösung, die wir stetig verbessern und um neue Funktionen erweitern garantiert ihnen auch in Zukunft ganz vorne mit dabei zu sein!",
+    "featureSectionFirstLeftProcent": "99,9%",
+    "featureSectionFirstLeftTitle": "Hochverfügbarkeit",
+    "featureSectionFirstLeftText": "ClinicNode ist eine auf neuesten Technologien basierte hochverfügbare Cloud-Applikation. Egal wo und wann Sie auf die Daten Ihres Unternehmens zugreifen wollen, Sie haben immer die vollen Zugriff und volle Kontrolle und wissen jederzeit über Ihr Unternehmen Bescheid und können steuerund eingreifen. Ein Team aus Expernten sorgt dafür, dass Sie rund um die Uhr auf die Daten Ihres Unternehmens zugreifen können!",
+    "featureSectionFirstRightProcent": "90%",
+    "featureSectionFirstRightTitle": "Überzeugende Lösung",
+    "featureSectionFirstRightText": "Wir sind stolz darauf, dass 90% der Unternehmen unser System nach der Testphase weiter nutzen. Durch Skalierbarkeit und Parametrisierung unserer Cloud-App, erhalten Sie eine absolut individuelle Lösung, abgestimmt auf Ihr Unternehmen. Damit erhalten Sie immer das richtige Angebot, vom EPU bis zum international tätigen Dienstleister. Abgestimmt auf Ihre Größe und Budget!",
+    "featureSectionSecondUpText": "Neueste Technologie und modernes Design",
+    "featureSectionSecondTitle": "ClinicNode ist eine Cloud-App, alles ist online!",
+    "featureSectionSecondText": "ClinicNode ist eine Art von Anwendung, die in der Cloud ausgeführt wird. Das bedeutet, dass alle Ihre Daten auf Servern gespeichert und jederzeit verfügbar sind, egal ob Sie im Unternehmen oder unterwegs sind. So haben Sie maximale Mobilität und Sicherheit.",
+    "featureSectionSecondItem1Title": "Verfügbar für alle Geräte",
+    "featureSectionSecondItem1Text": "ClinicNode ist für alle Geräte verfügbar, unabhängig vom Betriebssystem! Sie können ClinicNode auf Computern (Windows / Linux / iOS), Smartphones (Android / iOS) und sogar auf Smart-TVs verwenden!",
+    "featureSectionSecondItem2Title": "Keine Installation",
+    "featureSectionSecondItem2TextFirstPart": "ClinicNode erfordert keine Installation auf Ihren Geräten. Alles, was Sie tun müssen, ist sich zu registrieren und beim Account anzumelden!",
+    "featureSectionSecondItem2TextForm": "Jetzt registrieren",
+    "featureSectionSecondItem2TextSecondPart": "Wir helfen Ihnen dabei!",
+    "featureSectionSecondItem3Title": "Sicherheit und Verfügbarkeit",
+    "featureSectionSecondItem3Text": "Hochverfügbarkeit, modernste Servertechnologie und laufende Backups machen unsere Cloud-App sicher und verfügbar!",
+    "featureSectionTitle": "Diese Services von ClinicNode sparen Ihnen Zeit und steigern die Effizienz Ihres Unternehmens",
+    "featureSectionText": "ClinicNode ist eine neue Generation von Software, die Ihre Arbeit und die Ihrer Mitarbeiter optimiert, die Effizient Ihres Unternehmens steigert, die Auslastung erhöht und Ihnen dabei Zeit und Geld spart.",
+    "featureSectionOneTitle": "Zugriff steuern: Verschiedene Rollen im Unternehmen / System",
+    "featureSectionOneText1": "Gewähren Sie Ihren Mitarbeitern, je nach Rolle / Position im Unternehmen, unterschiedliche Zugriffsrechte im System!",
+    "featureSectionOneText2": "Auf dieser Basis werden den Mitarbeitern nur die Daten angezeigt, die für sie bestimmt sind und welche Rolle sie im Unternehmen haben!",
+    "featureSectionOneDescriptionTitle": "Dazu gehören folgende Rollen:",
+   "featureSectionOneDescriptionList1": "Besitzer des Unternehmens",
+    "featureSectionOneDescriptionList2": "Regionalleiter",
+    "featureSectionOneDescriptionList3": "Filialleiter",
+    "featureSectionOneDescriptionList4": "Gruppenleiter",
+    "featureSectionOneDescriptionList5": "Mitarbeiter",
+    "featureSectionOneDescriptionList6": "Nur Lesezugriff",
+    "featureSectionTwoTitle": "Automatisierte Prozesse",
+    "featureSectionTwoText": "Intelligente automatisierte Prozesse, die für Sie arbeiten, die Auslastung optimieren, die Kundenzufriedenheit steigern und die Kundenbindung erhöhen. Das spart Ihnen viel Zeit und verschafft Ihnen Freiräume!",
+    "featureSectionThreeTitle": "Statistiken",
+    "featureSectionThreeText": "Echtzeitdaten sowie Statistiken stehen Ihnen jederzeit zur Steuerung Ihres Unternehmens zur Verfügung. An jedem beliebigen Ort. So können Sie immer von überall aus korrigierend in das Geschehen eingreifen. Das macht sie äußerst flexibel!",
+    "featureSectionFourTitle": "Online-Reservierung für Ihre Kunden",
+    "featureSectionFourText": "Bestehende und neue Kunden können selbst ihre Termine Online buchen. Dadurch sinkt Ihr Verwaltungsaufwand und es eröffnen sich viele Möglichkeiten für Marketing Aktivitäten zur Optimierung der Auslastung!",
+    "featureSectionFiveTitle": "Kundendaten verwalten",
+    "featureSectionFiveText": "Neben den Kontaktdaten können eine ganze Reihe von zusätzlichen Informationen des Kunden gepflegt werden. Insbesondere ist es möglich zu jedem Kunden auch Dokumente, wie PDFs zu speichern. Somit ist die Integration von zusätzlichen Unterlagen einfach und leicht!",
+    "featureSectionSixTitle": "Zahlungen",
+    "featureSectionSixText": "Wenn gewünscht, erhalten Sie bereits bei der Online-Reservierung eines Termins einen voreingestellten Betrag für die gebuchte Dienstleistung vom Kunden überwiesen. Das erhöht die Termintreue durch die Kunden, verringert den administrativen Aufwand im Dienstleistungsbetrieb und entschädigt für durch Kunden nicht eingehaltene Termine!",
+    "featureSectionSevenTitle": "Marketing-Tools",
+    "featureSectionSevenText": "Umfangreiche Marketing-Tools helfen die Auslastung zu erhöhen, die Kundenbindung zu steigern und größte Kundenzufriedenheit herzustellen. Neben automatisierten Funktionen gibt es eine ganze Reihe von Möglichkeiten Kunden gezielt anzusprechen. Über selbst definierbare Filter können die Kunden selektiert werden um sie zielgerichtet zu erreichen!",
+    "featureSectionEightTitle": "Management-Tools",
+    "featureSectionEightText": "Zur Steuerung des Unternehmens stehen eine Vielzahl von Management-Tools zur Verfügung. Von der Gesamtübersicht des Unternehmens, über die Region und die Filiale bis hin zum Mitarbeiter stehen Auswertungen zur Verfügung. Quantitative Infos, wie Auslastung oder Deckungsbeitrag, aber auch qualitative, wie Zufriedenheit mit der Dienstleistung!",
+    "subscribeSectionUpText": "Testen Sie jetzt ClinicNode! Wir unterstützen Sie dabei kostenlos!",
+    "subscribeSectionTitle": "Jetzt 14 Tage kostenlos testen!",
+    "subscribeSectionText": "Wir helfen Ihnen, Ihren Dienstleistungsbetrieb zu digitalisieren und effizient zu führen. Geben Sie Ihre Email-Adresse an und wir helfen Ihnen bei den ersten Schritten!",
+    "subscribeSectionTextPlaceholder": "Bitte Email-Adresse angeben ...",
+    "subscribeSectionSendButton": "Senden",
+    "subscribeSectionTryPeriod": "14 Tage gratis Test",
+    "subscribeSectionNoNeedCreditCard": "Keine Kreditkarte",
+    "subscribeSectionSupport": "24/7-Support",
+    "subscribeSectionAnytimeCancel": "Jederzeit kündbar",
+    "priceSectionUpText": "Pakete und Preise",
+    "priceSectionTitle": "Faire Preise individuell auf Ihren Betrieb abgestimmt mit Top-Service!",
+    "priceSectionText": "Wählen Sie eines unserer Paket basierend auf Ihren Anforderungen und der Größe Ihres Unternehmens. Sie können das Paket jederzeit ändern oder individuell anpassen.",
+    "priceSectionNoNeedCreditCard": "Keine Kreditkarte",
+    "priceSectionTryPeriod": "Freie Periode 14 Tage",
+    "priceSectionAnytimeCancel": "Jederzeit kündbar",
+    "priceSectionHowManyChildren": "Wie viele Kinder haben Sie im Kindergarten?",
+    "priceSectionSelectionNumberOfChildren": "Wählen Sie die Anzahl der Kinder aus, indem Sie auf den Bereich unten klicken, um den Preis anzuzeigen",
+    "priceSectionChildrens": "Kinder",
+    "priceSectionMonth": "pro Monat",
+    "priceSectionItem1": "Kein Vertrag - jederzeit kündbar",
+    "priceSectionItem2": "Unbegrenzte Benutzer und Geräte",
+    "priceSectionItem3": "Unbegrenzter technischer Support",
+    "priceSectionItem4": "Automatisierte Speicherung Ihrer Daten",
+    "priceSectionTryFreeButton": "Versuchen es",
+    "priceSectionTryNoNeedCreditCardLabel": "Keine Kreditkarte benötigt!",
+    "contactSectionHeaderTitle": "Sie haben Fragen?",
+    "contactSectionHeaderText": "Kontaktieren Sie uns per Chat, E-Mail, Telefon oder Kontaktformular und wir beantworten gerne Ihre Fragen!",
+    "contactSectionItem1Title": "Chatten Sie mit uns ",
+    "contactSectionItem1Text": "Sie können uns über den Chat in der unteren rechten Ecke kontaktieren. Einer unserer Mitarbeiter wird sich mit Ihnen in Verbindung setzen!",
+    "contactSectionItem2Title": "Senden Sie uns eine Email",
+    "contactSectionItem2TextFirst": "Sie können uns alles, was Sie interessiert, per E-Mail zusenden",
+    "contactSectionItem2TextEmail": "office@bci.social",
+    "contactSectionItem2TextSecond": "und erhalten innerhalb von 24 Stunden eine Antwort!",
+    "contactSectionItem2Button": "Eine E-Mail senden",
+    "contactSectionItem3Title": "Rufen Sie uns an",
+    "contactSectionItem3Text": "Am Telefon ist es für Sie einfacher, kein Problem. Wir sind 24 Stunden am Tag für Sie da!",
+    "contactSectionItem3Phone": "+43 732 674514-0",
+    "contactSectionFormTitle": "Anfrageformular",
+    "contactSectionFormText": "Sie können über unser Kontakt-Formular eine Anfrage senden und erhalten eine Antwort an die von Ihnen angegebene E-Mail!",
+    "contactSectionFormFirstname": "Firma",
+    "contactSectionFormFirstnamePlaceholder": "Geben Sie den Firmennamen ein",
+    "contactSectionFormLastname": "Familienname Vorname",
+    "contactSectionFormLastnamePlaceholder": "Geben Sie den Ansprechpartner ein",
+    "contactSectionFormTelephone": "Telefon",
+    "contactSectionFormTelephonePlaceholder": "Geben Sie Ihre Telefonnummer ein",
+    "contactSectionFormEmail": "Email",
+    "contactSectionFormEmailPlaceholder": "Geben sie ihre E-Mail Adresse ein",
+    "contactSectionFormMessage": "Nachricht",
+    "contactSectionFormMessagePlaceholder": "Wie können wir Ihnen helfen? Was ist Ihr Anliegen?",
+    "contactSectionFormSendButton": "Anfrage senden",
+    "needToInputRequiredFields": "Alle Pflichtfelder müssen ausgefüllt werden!",
+    "successfullySendMessageRequest": "Ihre Anfrage wurde erfolgreich gesendet!",
+    "requestSectionTitle": "Digitalisieren Sie Ihren Dienstleistungsbetrieb. Wir helfen Ihnen bei den ersten Schritten. Kostenlos!",
+    "requestSectionText1": "Moderne Technologien sind dazu da, unsere tägliche Arbeit zu erleichtern und die Effizienz zu steigern!",
+    "requestSectionText2": "Mit der Einführung von ClinicNode erhalten Sie ein benutzerfreundliches und hocheffizientes System, das Ihnen dabei hilft, Ihre Geschäftsprozesse in Ihrem Dienstleistungsbetrieb zu organisieren, jederzeit und an jedem Ort. Verwaltung Sie ihre Termine im Unternehmen, oder bieten Sie Ihren Kunden die Möglichkeit zur Online-Reservierung an. Bleiben Sie in Kontakt mit ihren Kunden über unsere innovativen und interaktiven Marketing-Tools, verwalten Sie ihre Mitarbeiter und Filialen und behalten Sie über unsere Management-Tools immer den Überblick über Ihr Unternehmen!",
+    "requestSectionText3": "Wir sind stolz darauf, dass 90% der Unternehmen unser System nach der Testphase weiter nutzen. Durch Skalierbarkeit und Parametrisierung unserer Cloud-App, erhalten Sie eine absolut individuelle Lösung, abgestimmt auf Ihr Unternehmen. Damit erhalten Sie immer das richtige Angebot, vom EPU bis zum international tätigen Dienstleister. Abgestimmt auf Ihre Größe und Budget!",
+    "requestSectionFormTitle": "Füllen Sie das Formular aus und wir eröffnen gemeinsam mit Ihnen ein Konto für Sie. Oder klicken Sie oben auf Einloggen und registrieren sich gleich selbst. Sie können 14 Tage lang alle Funktionen gratis testen!",
+    "requestSectionFormName": "Firmenname(*)",
+    "requestSectionFormEmail": "Email(*)",
+    "requestSectionFormPhone": "Telefon(*)",
+    "requestSectionFormNameOfKindergarden": "Ansprechpartner(*)",
+    "requestSectionFormChooiceNumberOfChildrens": "Wählen Sie die Anzahl der Mitarbeiter(*)",
+    "requestSectionFormMessage": "Erzählen Sie uns mehr über Ihre Firma (optional)",
+    "requestSectionFormSendRequestButton": "Anfrage senden",
+    "needToFillAllField": "Felder, die mit einem Sternchen (*) versehen sind, müssen ausgefüllt werden",
+    "successSendRequest": "Sie haben erfolgreich eine Anfrage gesendet. Wir werden uns schnellstmöglich mit Ihnen in Verbindung setzen!",
+    "loginTitle": "Willkommen zurück!",
+    "loginNoHaveAccount": "Sie haben noch kein Konto?",
+    "loginCreateAccount": "Ein Konto erstellen",
+    "notCorrectUserOrPassword": "Sie haben die falsche E-Mail oder das falsche Passwort eingegeben!",
+    "loginEnterEmail": "Gib eine E-mail Adresse ein",
+    "loginEnterPassword": "Geben Sie ein neues Kennwort ein",
+    "loginSignIn": "Einloggen",
+    "loginForgotPassword": "Haben Sie Ihr Passwort vergessen?",
+    "loginConnectWithFacebook": "Verbinden Sie sich über Facebook",
+    "loginConnectWithGoogle": "Verbinden Sie sich über Google",
+    "forgotTitle": "Geben Sie Ihre E-Mail-Adresse ein, um Informationen zur Passwortwiederherstellung zu erhalten!",
+    "successfulySendMailForForgotPassword": "Sie haben erfolgreich eine Anfrage zum Zurücksetzen des Passworts gesendet. Überprüfen Sie Ihren Posteingang!",
+    "forgotEnterEmail": "Gib eine E-mail Adresse ein",
+    "forgotRenewPAssword": "Stellen Sie Ihr Passwort wieder her",
+    "forgotYouHaveAccount": "Haben Sie ein Konto und kennen das Passwort?",
+    "footerImpressum": "Impressum",
+    "footerPrivacyPolicy": "Datenschutzerklärung",
+    "footerTerms": "AGBs",
+    "from": "von",
+    "to": "bis",
+    "across": "mehr als",
+    "getStarted": "LOSLEGEN",
+    "requestDemoDropdownNumbers": [
+        "0 - 5",
+        "6 - 10",
+        "11 - 20",
+        "21 - 50",
+        "51 - 100",
+        "101 - 500",
+        "Über 500"
+    ],
+    "priceTable": {
+        "header": [
+            {
+                "nameOfPackageTitle": "Basis",
+                "nameOfPackageText": "Basis Funktionen. Optimierte Version für den erfolgreichen Start.",
+                "price": "9.90"
+            },
+            {
+                "nameOfPackageTitle": "Advanced",
+                "nameOfPackageText": "Erweiterte Funktionen. Für anspruchsvolle Nutzer",
+                "price": "29.70"
+            },
+            {
+                "nameOfPackageTitle": "Premium",
+                "nameOfPackageText": "Umfangreiche Funktionen. Die keine Wünsche offen lassen.",
+                "price": "64.30"
+            }
+        ],
+        "functions": [
+            {
+                "name": "Kalender",
+                "descriptionPerPackages": [
+                    "exists",
+                    "exists",
+                    "exists"
+                ]
+            },
+            {
+                "name": "Kunden verwalten",
+                "descriptionPerPackages": [
+                    "exists",
+                    "exists",
+                    "exists"
+                ]
+            },
+            {
+                "name": "Dokumenten Management",
+                "descriptionPerPackages": [
+                    "exists",
+                    "exists",
+                    "exists"
+                ]
+            },
+            {
+                "name": "Filialen verwalten",
+                "descriptionPerPackages": [
+                    "eine Filiale",
+                    "eine Filiale, optional mehrere",
+                    "eine Filiale, optional mehrere"
+                ]
+            },
+            {
+                "name": "Mitarbeiter verwalten",
+                "descriptionPerPackages": [
+                    "exists",
+                    "exists",
+                    "exists"
+                ]
+            },
+            {
+                "name": "Rechnungen ertellen",
+                "descriptionPerPackages": [
+                    "exists",
+                    "exists",
+                    "exists"
+                ]
+            },
+            {
+                "name": "Gutscheine verwalten",
+                "descriptionPerPackages": [
+                    "exists",
+                    "exists",
+                    "exists"
+                ]
+            },
+            {
+                "name": "Online Reservierung",
+                "descriptionPerPackages": [
+                    "exists",
+                    "exists",
+                    "exists"
+                ]
+            },
+            {
+                "name": "Marketing - Basis Funktionen",
+                "descriptionPerPackages": [
+                    "",
+                    "",
+                    ""
+                ]
+            },
+            {
+                "name": "- Terminerinnerung Email / SMS",
+                "descriptionPerPackages": [
+                    "exists",
+                    "exists",
+                    "exists"
+                ]
+            },
+            {
+                "name": "- Geburtstagsgrüße Email / SMS",
+                "descriptionPerPackages": [
+                    "exists",
+                    "exists",
+                    "exists"
+                ]
+            },
+            {
+                "name": "SMS (100 Stück) für € 9.90",
+                "descriptionPerPackages": [
+                    "optional",
+                    "inkludiert",
+                    "inkludiert"
+                ]
+            },
+            {
+                "name": "Marketing - Erweiterte Funktionen",
+                "descriptionPerPackages": [
+                    "not-exists",
+                    "exists",
+                    "exists"
+                ]
+            },
+            {
+                "name": "Zugriffssteuerung auf Geräte",
+                "descriptionPerPackages": [
+                    "not-exists",
+                    "not-exists",
+                    "exists"
+                ]
+            },
+            {
+                "name": "Erweiterte Marketing Funktionen",
+                "descriptionPerPackages": [
+                    "not-exists",
+                    "not-exists",
+                    "exists"
+                ]
+            },
+            {
+                "name": "Management Funktionen",
+                "descriptionPerPackages": [
+                    "not-exists",
+                    "not-exists",
+                    "exists"
+                ]
+            },
+            {
+                "name": "Warteliste mit AI Algorithmus",
+                "descriptionPerPackages": [
+                    "not-exists",
+                    "not-exists",
+                    "exists"
+                ]
+            },
+            {
+                "name": "Individuelle Funktionen",
+                "descriptionPerPackages": [
+                    "",
+                    "",
+                    ""
+                ]
+            },
+            {
+                "name": "- Multistore",
+                "descriptionPerPackages": [
+                    "not-exists",
+                    "€ 9.90 pro zusätzlicher Filiale",
+                    "€ 9.90 pro zusätzlicher Filiale"
+                ]
+            },
+            {
+                "name": "- Payment für Online-Reservierung",
+                "descriptionPerPackages": [
+                    "not-exists",
+                    "optional",
+                    "optional"
+                ]
+            },
+            {
+                "name": "- Online Support",
+                "descriptionPerPackages": [
+                    "optional",
+                    "optional",
+                    "optional"
+                ]
+            }
+        ]
+    },
+    "notFoundTitle": "Seite nicht gefunden!",
+    "notFoundText": "Die gesuchte Seite existiert nicht.",
+    "notFoundBackButton": "Der Rücken",
+    "notFoundCopyRight": "Copyright © 2022 ClinicNode. Alle Rechte vorbehalten.",
+     "choosePackage": "Paketauswahl",
+    "priceOfPackage": "Der Preis des ausgewählten Pakets beträgt: ",
+    "cardDetails": "Kartendetails",
+    "lastPaymentStep": "Der letzte Schritt",
+    "paymentMessage": "Bestätigen Sie Ihre Bestellung noch einmal!",
+    "yes": "Ja",
+    "no": "Nein",
+    "paymentSuccess": "Sie haben die Zahlung erfolgreich durchgeführt!",
+    "paymentText": "Ihre Zahlung wurde registriert. Nach der Registrierung werden wir uns mit Ihnen in Verbindung setzen!",
+    "backToHome": "Gehen Sie zurück zum Anfang",
+    "paymentError": "Während der Zahlung ist ein Problem aufgetreten. Bitte versuchen Sie es später erneut."
+}

@@ -63,7 +63,7 @@
         "root": ""
       },
       "delete": {
-        "type": "GET",
+        "type": "POST",
         "api": "/api/deleteAvailableAreaCode",
         "parameters": [],
         "fields": "",

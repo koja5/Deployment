@@ -41,7 +41,13 @@
   "hideable": true,
   "refresh": false,
   "reset": true,
-  "toolbar": ["Add", "Edit", "Delete", "Print", "Search"],
+  "toolbar": [
+    "Add",
+    "Edit",
+    "Delete",
+    "Print",
+    "Search"
+  ],
   "editSettings": {
     "allowEditing": true,
     "allowAdding": true,
@@ -89,11 +95,11 @@
       "field": "name"
     },
     {
-      "title": "Language",
+      "title": "Holiday template",
       "filterable": true,
       "type": "string",
       "class": "text-align-right",
-      "field": "language"
+      "field": "holiday_template"
     },
     {
       "title": "Email",
@@ -132,7 +138,10 @@
       "width": "col-md-12",
       "name": "account_id",
       "label": "Template account",
-      "field": { "text": "email", "value": "id" },
+      "field": {
+        "text": "email",
+        "value": "id"
+      },
       "request": {
         "type": "GET",
         "api": "/api/getAllSuperadmin",
@@ -150,9 +159,35 @@
     {
       "type": "dropdown",
       "width": "col-md-12",
+      "name": "holiday_template",
+      "label": "Holiday template",
+      "field": {
+        "text": "name",
+        "value": "id"
+      },
+      "request": {
+        "type": "GET",
+        "api": "/api/getHolidayTemplates",
+        "parameters": [],
+        "fields": "",
+        "root": ""
+      },
+      "placeholder": "Please choose holiday template",
+      "fieldConfig": {
+        "ignoreAccent": false,
+        "filter": true
+      },
+      "required": true
+    },
+    {
+      "type": "dropdown",
+      "width": "col-md-12",
       "name": "language",
       "label": "Languages",
-      "field": { "text": "language", "value": "language" },
+      "field": {
+        "text": "language",
+        "value": "language"
+      },
       "request": {
         "type": "GET",
         "api": "/api/getTranslationWithoutConfig",

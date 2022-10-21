@@ -1,54 +1,74 @@
 [
-    {
-      "type": "textbox",
-      "width": "col-md-12",
-      "name": "smsSubject",
-      "label": "smsSubject",
-      "field": "smsSubject"
-    },
-    {
-      "type": "switch",
-      "width": "col-md-12",
-      "name": "signatureAvailable",
-      "label": "signatureAvailable",
-      "field": "signatureAvailable"
-    },
-    {
-      "type": "textbox",
-      "width": "col-md-6",
-      "name": "smsSignatureAddress",
-      "label": "smsSignatureAddress",
-      "field": "smsSignatureAddress"
-    },
-    {
-      "type": "textbox",
-      "width": "col-md-6",
-      "name": "smsSignatureTelephone",
-      "label": "smsSignatureTelephone",
-      "field": "smsSignatureTelephone"
-    },
-    {
-      "type": "textbox",
-      "width": "col-md-6",
-      "name": "smsSignatureMobile",
-      "label": "smsSignatureMobile",
-      "field": "smsSignatureMobile"
-    },
-    {
-      "type": "textbox",
-      "width": "col-md-6",
-      "name": "smsSignatureEmail",
-      "label": "smsSignatureEmail",
-      "field": "smsSignatureEmail"
-    },
-    {
-      "type": "button",
-      "width": "col-md-12",
-      "class": "e-control e-btn e-lib e-primary e-flat",
-      "name": "submit",
-      "label": "save",
-      "field": "submit",
-      "positionClass": "text-align: end"
-    }
-  ]
-  
+  {
+    "type": "textbox",
+    "width": "col-md-12",
+    "name": "smsSubject",
+    "label": "smsSubject",
+    "field": "smsSubject"
+  },
+  {
+    "type": "switch",
+    "width": "col-md-12",
+    "name": "signatureAvailable",
+    "label": "signatureAvailable",
+    "field": "signatureAvailable"
+  },
+  {
+    "type": "textbox",
+    "width": "col-md-12",
+    "name": "smsSignatureCompanyName",
+    "label": "signatureCompanyName",
+    "field": "smsSignatureCompanyName"
+  },
+  {
+    "type": "textbox",
+    "width": "col-md-4",
+    "name": "smsSignatureAddress1",
+    "label": "signatureAddress1",
+    "field": "smsSignatureAddress1"
+  },
+  {
+    "type": "textbox",
+    "width": "col-md-4",
+    "name": "smsSignatureAddress2",
+    "label": "signatureAddress2",
+    "field": "smsSignatureAddress2"
+  },
+  {
+    "type": "textbox",
+    "width": "col-md-4",
+    "name": "smsSignatureAddress3",
+    "label": "signatureAddress3",
+    "field": "smsSignatureAddress3"
+  },
+  {
+    "type": "textbox",
+    "width": "col-md-4",
+    "name": "smsSignatureTelephone",
+    "label": "signatureTelephone",
+    "field": "smsSignatureTelephone"
+  },
+  {
+    "type": "textbox",
+    "width": "col-md-4",
+    "name": "smsSignatureMobile",
+    "label": "signatureMobile",
+    "field": "smsSignatureMobile"
+  },
+  {
+    "type": "textbox",
+    "width": "col-md-4",
+    "name": "smsSignatureEmail",
+    "label": "signatureEmail",
+    "field": "smsSignatureEmail"
+  },
+  {
+    "type": "button",
+    "width": "col-md-12",
+    "class": "e-control e-btn e-lib e-primary e-flat",
+    "name": "submit",
+    "label": "save",
+    "field": "submit",
+    "positionClass": "text-align: end"
+  }
+]

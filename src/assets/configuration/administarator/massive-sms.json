@@ -21,6 +21,13 @@
     "field": "female"
   },
   {
+    "type": "checkbox",
+    "width": "col-md-12",
+    "name": "excludeCustomersWithEvents",
+    "label": "excludeCustomersWithEvents",
+    "field": "excludeCustomersWithEvents"
+  },
+  {
     "type": "datepicker",
     "width": "col-md-6",
     "format": "dd.MM.yyyy",
@@ -35,6 +42,204 @@
     "name": "birthdayTo",
     "label": "birthdayTo",
     "field": "birthdayTo"
+  },
+  {
+    "type": "textbox",
+    "width": "col-md-6",
+    "name": "profession",
+    "label": "profession",
+    "field": "profession"
+  },
+  {
+    "type": "textbox",
+    "width": "col-md-6",
+    "name": "childs",
+    "label": "childs",
+    "field": "childs"
+  },
+  {
+    "type": "dropdown",
+    "width": "col-md-6",
+    "name": "category",
+    "label": "category",
+    "field": {
+      "text": "category",
+      "value": "id"
+    },
+    "request": {
+      "type": "GET",
+      "api": "/api/getEventCategory",
+      "parameters": [
+        "superadmin"
+      ],
+      "fields": "",
+      "root": ""
+    },
+    "fieldConfig": {
+      "ignoreAccent": false,
+      "filter": true
+    },
+    "required": true
+  },
+  {
+    "type": "dropdown",
+    "width": "col-md-6",
+    "name": "creator_id",
+    "label": "user",
+    "field": {
+      "text": "shortname",
+      "value": "id"
+    },
+    "request": {
+      "type": "GET",
+      "api": "/api/getUsers",
+      "parameters": [
+        "superadmin"
+      ],
+      "fields": "",
+      "root": ""
+    },
+    "fieldConfig": {
+      "ignoreAccent": false,
+      "filter": true
+    },
+    "required": true
+  },
+  {
+    "type": "datepicker",
+    "width": "col-md-6",
+    "format": "dd.MM.yyyy",
+    "name": "start",
+    "label": "start",
+    "field": "start"
+  },
+  {
+    "type": "datepicker",
+    "width": "col-md-6",
+    "format": "dd.MM.yyyy",
+    "name": "end",
+    "label": "end",
+    "field": "end"
+  },
+  {
+    "type": "dropdown",
+    "width": "col-md-6",
+    "name": "recommendation",
+    "label": "recommendation",
+    "field": {
+      "text": "title",
+      "value": "id"
+    },
+    "request": {
+      "type": "GET",
+      "api": "/api/getRecommendationList",
+      "parameters": [
+        "superadmin"
+      ],
+      "fields": "",
+      "root": ""
+    },
+    "fieldConfig": {
+      "ignoreAccent": false,
+      "filter": true
+    },
+    "required": true
+  },
+  {
+    "type": "dropdown",
+    "width": "col-md-6",
+    "name": "relationship",
+    "label": "relationship",
+    "field": {
+      "text": "title",
+      "value": "id"
+    },
+    "request": {
+      "type": "GET",
+      "api": "/api/getRelationshipList",
+      "parameters": [
+        "superadmin"
+      ],
+      "fields": "",
+      "root": ""
+    },
+    "fieldConfig": {
+      "ignoreAccent": false,
+      "filter": true
+    },
+    "required": true
+  },
+  {
+    "type": "dropdown",
+    "width": "col-md-6",
+    "name": "social",
+    "label": "social",
+    "field": {
+      "text": "title",
+      "value": "id"
+    },
+    "request": {
+      "type": "GET",
+      "api": "/api/getSocialList",
+      "parameters": [
+        "superadmin"
+      ],
+      "fields": "",
+      "root": ""
+    },
+    "fieldConfig": {
+      "ignoreAccent": false,
+      "filter": true
+    },
+    "required": true
+  },
+  {
+    "type": "dropdown",
+    "width": "col-md-6",
+    "name": "doctor",
+    "label": "doctor",
+    "field": {
+      "text": "fullname",
+      "value": "id"
+    },
+    "request": {
+      "type": "GET",
+      "api": "/api/getDoctorsList",
+      "parameters": [
+        "superadmin"
+      ],
+      "fields": "",
+      "root": ""
+    },
+    "fieldConfig": {
+      "ignoreAccent": false,
+      "filter": true
+    },
+    "required": true
+  },
+  {
+    "type": "dropdown",
+    "width": "col-md-12",
+    "name": "store",
+    "label": "store",
+    "field": {
+      "text": "storename",
+      "value": "id"
+    },
+    "request": {
+      "type": "GET",
+      "api": "/api/getStore",
+      "parameters": [
+        "superadmin"
+      ],
+      "fields": "",
+      "root": ""
+    },
+    "fieldConfig": {
+      "ignoreAccent": false,
+      "filter": true
+    },
+    "required": true
   },
   {
     "type": "textarea",

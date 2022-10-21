@@ -101,14 +101,6 @@
       "allowEditing": false
     },
     {
-      "title": "userAccessDevice",
-      "filterable": true,
-      "type": "string",
-      "class": "text-align-right",
-      "field": "device_name",
-      "allowEditing": false
-    },
-    {
       "title": "date",
       "filterable": true,
       "hideable": true,
@@ -130,7 +122,7 @@
   "configField": [
     {
       "type": "textbox",
-      "width": "col-md-12 hide",
+      "width": "col-md-12",
       "name": "id",
       "label": "ID",
       "field": "id",

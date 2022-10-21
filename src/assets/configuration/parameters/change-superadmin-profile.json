@@ -17,8 +17,15 @@
     "type": "textbox",
     "width": "col-md-4",
     "name": "shortname",
-    "label": "shortname",
+    "label": "storename",
     "field": "shortname"
+  },
+  {
+    "type": "textbox",
+    "width": "col-md-4",
+    "name": "vatcode",
+    "label": "vatcode",
+    "field": "vatcode"
   },
   {
     "type": "textbox",
@@ -46,8 +53,7 @@
     "width": "col-md-4",
     "name": "email",
     "label": "email",
-    "field": "email",
-    "disabled": true
+    "field": "email"
   },
   {
     "type": "textbox",
@@ -74,10 +80,23 @@
   {
     "type": "datepicker",
     "width": "col-md-4",
-    "format": "dd.MM.yyyy",
     "name": "incompanysince",
     "label": "incompanysince",
     "field": "incompanysince"
+  },
+  {
+    "type": "textbox",
+    "width": "col-md-4",
+    "name": "invoicePrefix",
+    "label": "invoicePrefix",
+    "field": "invoicePrefix"
+  },
+  {
+    "type": "textbox",
+    "width": "col-md-4",
+    "name": "invoiceID",
+    "label": "invoiceID",
+    "field": "invoiceID"
   },
   {
     "type": "button",

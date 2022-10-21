@@ -39,7 +39,7 @@
   "hideable": true,
   "refresh": false,
   "reset": true,
-  "toolbar": ["Edit", "Print", "Search"],
+  "toolbar": ["Add", "Edit", "Delete", "Print", "Search"],
   "editSettings": {
     "allowEditing": true,
     "allowAdding": true,
@@ -63,7 +63,7 @@
       "root": ""
     },
     "delete": {
-      "type": "GET",
+      "type": "POST",
       "api": "/api/deleteSmsCount",
       "parameters": [],
       "fields": "",

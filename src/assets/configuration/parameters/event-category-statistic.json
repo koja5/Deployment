@@ -103,6 +103,13 @@
       "field": "shortname"
     },
     {
+      "title": "categoryOfCount",
+      "filterable": true,
+      "type": "string",
+      "class": "text-align-right",
+      "field": "categorie"
+    },
+    {
       "title": "displayOfCount",
       "filterable": true,
       "type": "string",
@@ -158,6 +165,24 @@
         "ignoreAccent": false,
         "filter": true
       }
+    },
+    {
+      "type": "dropdown",
+      "name": "eventCategoryPeriod",
+      "label": "periodForEvent",
+      "field": { "text": "text", "value": "id" },
+      "data": {
+        "translation": {
+          "property": "eventCategoryPeriod",
+          "fields": { "text": "text", "value": "id" }
+        }
+      },
+      "placeholder": "Please enter email of user",
+      "fieldConfig": {
+        "ignoreAccent": false,
+        "filter": true
+      },
+      "required": true
     },
     {
       "type": "checkbox",

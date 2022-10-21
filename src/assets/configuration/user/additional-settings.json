@@ -1,0 +1,26 @@
+[
+  {
+    "type": "switch",
+    "width": "col-md-12",
+    "class": "mt-4",
+    "name": "allowed_online",
+    "label": "changePasswordOldPassword",
+    "field": "allowed_online"
+  },
+  {
+    "type": "button",
+    "width": "col-md-12",
+    "class": "e-control e-btn e-lib e-primary e-flat",
+    "name": "submit",
+    "label": "changePasswordButton",
+    "field": "submit",
+    "positionClass": "text-align: end",
+    "request": {
+      "type": "POST",
+      "api": "/api/updateUserAdditionalSettings",
+      "parameters": ["getMe"],
+      "fields": "",
+      "root": ""
+    }
+  }
+]

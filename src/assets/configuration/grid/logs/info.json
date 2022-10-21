@@ -63,7 +63,7 @@
       "class": "text-align-right",
       "defaultValue": "no date",
       "field": "timestamp",
-      "format": { "type": "date", "format": "dd/MM/yyyy HH:mm" }
+      "format": { "type": "date", "format": "dd/MM/yyyy hh:mm" }
     }
   ],
   "configField": []

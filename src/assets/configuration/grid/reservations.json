@@ -5,7 +5,9 @@
   "request": {
     "type": "GET",
     "api": "/api/getReservations",
-    "parameters": ["superadmin"],
+    "parameters": [
+      "superadmin"
+    ],
     "fields": "",
     "root": ""
   },
@@ -20,7 +22,11 @@
   },
   "grouping": {
     "enable": true,
-    "group": [{ "field": "processConfigurationName" }]
+    "group": [
+      {
+        "field": "processConfigurationName"
+      }
+    ]
   },
   "filtering": {
     "enable": false
@@ -33,7 +39,10 @@
   "hideable": true,
   "refresh": false,
   "reset": true,
-  "toolbar": ["Print", "Search"],
+  "toolbar": [
+    "Print",
+    "Search"
+  ],
   "customToolbar": {
     "refresh": true,
     "collapse": true
@@ -50,8 +59,8 @@
       "title": "",
       "label": "reservationApprove",
       "id": "approve",
-      "width": 150,
-      "class": "btn btn-success",
+      "width": 200,
+      "class": "btn-md btn-success",
       "position": "Center",
       "classIcon": "fa fa-check",
       "type": "button",
@@ -69,8 +78,8 @@
       "title": "",
       "label": "reservationDeny",
       "id": "deny",
-      "width": 150,
-      "class": "btn btn-danger",
+      "width": 200,
+      "class": "btn-md btn-danger",
       "position": "Center",
       "classIcon": "fa fa-times",
       "type": "button",
@@ -104,7 +113,9 @@
       "type": "string",
       "class": "text-align-right",
       "field": "firstname",
-      "validation": { "required": true }
+      "validation": {
+        "required": true
+      }
     },
     {
       "title": "Lastname",
@@ -114,7 +125,9 @@
       "type": "string",
       "class": "text-align-right",
       "field": "lastname",
-      "validation": { "required": true }
+      "validation": {
+        "required": true
+      }
     },
     {
       "title": "Email",
@@ -143,7 +156,10 @@
       "class": "text-align-right",
       "defaultValue": "no date",
       "field": "birthday",
-      "format": { "type": "date", "format": "dd/MM/yyyy" }
+      "format": {
+        "type": "date",
+        "format": "dd/MM/yyyy"
+      }
     },
     {
       "title": "From",
@@ -154,7 +170,10 @@
       "class": "text-align-right",
       "defaultValue": "no date",
       "field": "start",
-      "format": { "type": "date", "format": "dd/MM/yyyy - hh:MM" }
+      "format": {
+        "type": "date",
+        "format": "dd/MM/yyyy - hh:MM"
+      }
     },
     {
       "title": "To",
@@ -165,7 +184,10 @@
       "class": "text-align-right",
       "defaultValue": "no date",
       "field": "end",
-      "format": { "type": "date", "format": "dd/MM/yyyy - hh:MM" }
+      "format": {
+        "type": "date",
+        "format": "dd/MM/yyyy - hh:MM"
+      }
     },
     {
       "title": "Doctor",

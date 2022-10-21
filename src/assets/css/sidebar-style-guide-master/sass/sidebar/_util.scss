@@ -1,0 +1,76 @@
+// padding
+.sidebar-p-a {
+	padding: 5px 5px;
+}
+.sidebar-p-x {
+	padding-left: 5px;
+	padding-right: 5px;
+}
+.sidebar-p-y {
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+.sidebar-p-t {
+	padding-top: 5px;
+}
+.sidebar-p-b {
+	padding-bottom: 5px;
+}
+.sidebar-p-l {
+	padding-left: 5px;
+	padding-right: 5px;
+}
+.sidebar-p-r {
+	padding-right: 5px;
+}
+
+// margin
+.sidebar-m-a {
+	margin: 5px 5px;
+}
+.sidebar-m-x {
+	margin-left: 5px;
+	margin-right: 5px;
+}
+.sidebar-m-y {
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+.sidebar-m-t {
+	margin-top: 5px;
+}
+.sidebar-m-b {
+	margin-bottom: 5px;
+}
+.sidebar-m-l {
+	margin-left: 5px;
+}
+.sidebar-m-r {
+	margin-right: 5px;
+}
+
+// Borders
+.sidebar-b-a {
+	border: 1px solid transparent;
+}
+.sidebar-b-x {
+	border-left: 1px solid transparent;
+	border-right: 1px solid transparent;
+}
+.sidebar-b-y {
+	border-top: 1px solid transparent;
+	border-bottom: 1px solid transparent;
+}
+.sidebar-b-t {
+	border-top: 1px solid transparent;
+}
+.sidebar-b-b {
+	border-bottom: 1px solid transparent;
+}
+
+// Generic sidebar element
+.sidebar-block {
+	padding-left: 5px;
+	padding-right: 5px;
+	margin-bottom: 5px;
+}

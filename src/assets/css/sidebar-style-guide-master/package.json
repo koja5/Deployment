@@ -1,0 +1,25 @@
+{
+  "name": "sidebar-style-guide",
+  "version": "2.0.0",
+  "description": "Sidebar navigation style guide (CSS and Sass)",
+  "scripts": {
+    "development": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "production": "cross-env NODE_ENV=production node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "watch": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --watch --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js"
+  },
+  "author": "FrontendMatter <contact@frontendmatter.com> (http://www.frontendmatter.com)",
+  "license": "ISC",
+  "devDependencies": {
+    "cross-env": "^5.1.1",
+    "laravel-mix": "^1.5.1"
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FrontendMatter/sidebar-style-guide.git"
+  },
+  "bugs": {
+    "url": "https://github.com/FrontendMatter/sidebar-style-guide/issues"
+  },
+  "homepage": "https://github.com/FrontendMatter/sidebar-style-guide#readme"
+}

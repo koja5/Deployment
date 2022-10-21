@@ -1,0 +1,339 @@
+{
+    "id": "rc",
+    "title": "Registered Clinics",
+    "pageSize": 10,
+    "request": {
+      "type": "GET",
+      "api": "/api/getRegisteredClinics",
+      "parameters": [],
+      "fields": "",
+      "root": ""
+    },
+    "paging": {
+      "enable": true,
+      "settings": {
+        "pageSize": 10
+      }
+    },
+    "sorting": {
+      "enable": true,
+      "initalSorting": {
+        "columns": [
+          {
+            "field": "id",
+            "direction": "Descending"
+          }
+        ]
+      }
+    },
+    "grouping": {
+      "enable": true,
+      "group": []
+    },
+    "filtering": {
+      "enable": false
+    },
+    "customGrouping": false,
+    "allowResizing": true,
+    "reorderable": true,
+    "selectable": true,
+    "scrollable": false,
+    "hideable": true,
+    "refresh": false,
+    "reset": true,
+    "toolbar": [
+      "Add",
+      "Edit",
+      "Delete",
+      "Print",
+      "Search"
+    ],
+    "editSettings": {
+      "allowEditing": true,
+      "allowAdding": true,
+      "allowDeleting": true,
+      "showDeleteConfirmDialog": true,
+      "mode": "Dialog"
+    },
+    "editSettingsRequest": {
+      "add": {
+        "type": "POST",
+        "api": "/api/createClinic",
+        "parameters": [
+          {"type": "language",
+           "translateFields":
+            [
+              "subjectFormRegistration",
+              "initialGreeting",
+              "finalGreeting",
+              "signature",
+              "thanksForUsing",
+              "websiteLink",
+              "ifYouHaveQuestion",
+              "emailAddress",
+              "notReply",
+              "copyRight",
+              "introductoryMessageForPatientRegistrationForm",
+              "openForm"
+            ]
+           }],
+        "fields": "",
+        "root": ""
+      },
+      "edit": {
+        "type": "POST",
+        "api": "/api/updateRegisteredClinic",
+        "parameters": [],
+        "fields": "",
+        "root": ""
+      },
+      "delete": {
+        "type": "POST",
+        "api": "/api/deleteRegisteredClinic",
+        "parameters": [],
+        "fields": "",
+        "root": ""
+      }
+    },
+    "columns": [
+      {
+        "title": "ID",
+        "width": 60,
+        "filterable": true,
+        "type": "string",
+        "class": "text-align-right",
+        "field": "id"
+      },
+      {
+        "title": "First name",
+        "filterable": true,
+        "type": "string",
+        "class": "text-align-right",
+        "field": "firstname"
+      },
+      {
+        "title": "Last name",
+        "filterable": true,
+        "type": "string",
+        "class": "text-align-right",
+        "field": "lastname"
+      },
+      {
+        "title": "Shortname",
+        "filterable": true,
+        "type": "string",
+        "class": "text-align-right",
+        "field": "shortname"
+      },
+      {
+        "title": "Street",
+        "filterable": true,
+        "type": "string",
+        "class": "text-align-right",
+        "field": "street"
+      },
+      {
+        "title": "Zipcode",
+        "filterable": true,
+        "type": "string",
+        "class": "text-align-right",
+        "field": "zipcode"
+      },
+      {
+        "title": "City",
+        "filterable": true,
+        "type": "string",
+        "class": "text-align-right",
+        "field": "place"
+      },
+      {
+        "title": "email",
+        "filterable": true,
+        "type": "string",
+        "class": "text-align-right",
+        "field": "email"
+      },
+      {
+        "title": "Telephone",
+        "filterable": true,
+        "type": "string",
+        "class": "text-align-right",
+        "field": "telephone"
+      },
+      {
+        "title": "Mobile",
+        "filterable": true,
+        "type": "string",
+        "class": "text-align-right",
+        "field": "mobile"
+      },
+      {
+        "title": "Birthday",
+        "filterable": true,
+        "type": "string",
+        "class": "text-align-right",
+        "field": "birthday"
+      },
+      {
+        "title": "In Company Since",
+        "filterable": true,
+        "type": "string",
+        "class": "text-align-right",
+        "field": "incompanysince"
+      },
+      {
+        "title": "Active",
+        "filterable": true,
+        "type": "string",
+        "class": "text-align-right",
+        "field": "active"
+      },
+      {
+        "title": "Company name",
+        "filterable": true,
+        "type": "string",
+        "class": "text-align-right",
+        "field": "companyname"
+      },
+      {
+        "type": "detailsButton",
+        "title": "Details",
+        "class": "e-control e-btn e-lib e-primary e-flat",
+        "name": "show-details",
+        "field": "details"
+      }
+    ],
+    "configField": [
+      {
+        "type": "textbox",
+        "width": "col-md-6",
+        "name": "id",
+        "label": "ID",
+        "field": "id",
+        "readonly": true
+      },
+      {
+        "type": "textbox",
+        "width": "col-md-6",
+        "name": "firstname",
+        "label": "First name",
+        "field": "firstname",
+        "required": false
+      },
+      {
+        "type": "textbox",
+        "width": "col-md-6",
+        "name": "lastname",
+        "label": "Last name",
+        "field": "lastname",
+        "required": false
+      },
+      {
+        "type": "textbox",
+        "width": "col-md-6",
+        "name": "shortname",
+        "label": "Shortname",
+        "field": "shortname",
+        "required": true
+      },
+      {
+        "type": "textbox",
+        "width": "col-md-6",
+        "name": "street",
+        "label": "Street",
+        "field": "street",
+        "required": false
+      },
+      {
+        "type": "textbox",
+        "width": "col-md-6",
+        "name": "zipcode",
+        "label": "Zipcode",
+        "field": "zipcode",
+        "required": false
+      },
+      {
+        "type": "textbox",
+        "width": "col-md-6",
+        "name": "place",
+        "label": "City",
+        "field": "place",
+        "required": false
+      },
+      {
+        "type": "textbox",
+        "width": "col-md-6",
+        "name": "email",
+        "label": "Email",
+        "field": "email",
+        "required": false
+      },
+      {
+        "type": "textbox",
+        "width": "col-md-6",
+        "name": "telephone",
+        "label": "Telephone",
+        "field": "telephone",
+        "required": false
+      },
+      {
+        "type": "textbox",
+        "width": "col-md-6",
+        "name": "mobile",
+        "label": "Mobile",
+        "field": "mobile",
+        "required": false
+      },
+      {
+        "type": "datepicker",
+        "width": "col-md-6",
+        "name": "birthday",
+        "label": "Birthday",
+        "field": "birthday",
+        "required": false
+      },
+      {
+        "type": "datepicker",
+        "width": "col-md-6",
+        "name": "incompanysince",
+        "label": "In Company Since",
+        "field": "incompanysince",
+        "required": false
+      },
+      {
+        "type": "textbox",
+        "width": "col-md-6",
+        "name": "companyname",
+        "label": "Company Name",
+        "field": "companyname",
+        "required": false
+      },
+      {
+        "type": "textbox",
+        "class": "editPassword",
+        "subtype": "password",
+        "width": "col-md-6",
+        "name": "password",
+        "label": "Password",
+        "field": "password",
+        "required": false
+      },
+      {
+        "type": "checkbox",
+        "width": "col-md-12",
+        "name": "active",
+        "label": "Active",
+        "field": "active",
+        "required": false
+      },
+      {
+        "type": "button",
+        "width": "col-md-12",
+        "class": "e-control e-btn e-lib e-primary e-flat pl-5 pr-5 pt-2 pb-2 mr-3",
+        "name": "submit",
+        "label": "Save",
+        "field": "submit",
+        "positionClass": "text-align: end"
+      }
+    ]
+  }

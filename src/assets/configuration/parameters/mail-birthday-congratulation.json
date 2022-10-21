@@ -1,0 +1,137 @@
+[
+    {
+        "type": "switch",
+        "width": "col-md-12",
+        "name": "congratulationBirthday",
+        "label": "congratulationBirthday",
+        "field": "congratulationBirthday"
+    },
+    {
+        "type": "textbox",
+        "width": "col-md-12",
+        "name": "mailInitialGreeting",
+        "label": "mailInitialGreeting",
+        "field": "mailInitialGreeting"
+    },
+    {
+        "type": "textbox",
+        "width": "col-md-4",
+        "name": "mailFinalGreeting",
+        "label": "mailFinalGreeting",
+        "field": "mailFinalGreeting"
+    },
+    {
+        "type": "textbox",
+        "width": "col-md-4",
+        "name": "mailThanksForUsing",
+        "label": "mailThanksForUsing",
+        "field": "mailThanksForUsing"
+    },
+    {
+        "type": "textbox",
+        "width": "col-md-4",
+        "name": "mailIfYouHaveQuestion",
+        "label": "mailIfYouHaveQuestion",
+        "field": "mailIfYouHaveQuestion"
+    },
+    {
+        "type": "textbox",
+        "width": "col-md-4",
+        "name": "mailNotReply",
+        "label": "mailNotReply",
+        "field": "mailNotReply"
+    },
+    {
+        "type": "textbox",
+        "width": "col-md-4",
+        "name": "mailCopyRight",
+        "label": "mailCopyRight",
+        "field": "mailCopyRight"
+    },
+    {
+        "type": "textbox",
+        "width": "col-md-4",
+        "name": "mailSignature",
+        "label": "mailSignature",
+        "field": "mailSignature"
+    },
+    {
+        "type": "textbox",
+        "width": "col-md-12",
+        "name": "mailSubject",
+        "label": "mailSubject",
+        "field": "mailSubject"
+    },
+    {
+        "type": "textarea",
+        "width": "col-md-12",
+        "name": "mailMessage",
+        "label": "mailMessage",
+        "field": "mailMessage"
+    },
+    {
+        "type": "switch",
+        "width": "col-md-12",
+        "name": "signatureAvailable",
+        "label": "signatureAvailable",
+        "field": "signatureAvailable"
+    },
+    {
+        "type": "textbox",
+        "width": "col-md-12",
+        "name": "signatureCompanyName",
+        "label": "signatureCompanyName",
+        "field": "signatureCompanyName"
+    },
+    {
+        "type": "textbox",
+        "width": "col-md-4",
+        "name": "signatureAddress1",
+        "label": "signatureAddress1",
+        "field": "signatureAddress1"
+    },
+    {
+        "type": "textbox",
+        "width": "col-md-4",
+        "name": "signatureAddress2",
+        "label": "signatureAddress2",
+        "field": "signatureAddress2"
+    },
+    {
+        "type": "textbox",
+        "width": "col-md-4",
+        "name": "signatureAddress3",
+        "label": "signatureAddress3",
+        "field": "signatureAddress3"
+    },
+    {
+        "type": "textbox",
+        "width": "col-md-4",
+        "name": "signatureTelephone",
+        "label": "signatureTelephone",
+        "field": "signatureTelephone"
+    },
+    {
+        "type": "textbox",
+        "width": "col-md-4",
+        "name": "signatureMobile",
+        "label": "signatureMobile",
+        "field": "signatureMobile"
+    },
+    {
+        "type": "textbox",
+        "width": "col-md-4",
+        "name": "signatureEmail",
+        "label": "signatureEmail",
+        "field": "signatureEmail"
+    },
+    {
+        "type": "button",
+        "width": "col-md-12",
+        "class": "e-control e-btn e-lib e-primary e-flat",
+        "name": "submit",
+        "label": "save",
+        "field": "submit",
+        "positionClass": "text-align: end"
+    }
+]
